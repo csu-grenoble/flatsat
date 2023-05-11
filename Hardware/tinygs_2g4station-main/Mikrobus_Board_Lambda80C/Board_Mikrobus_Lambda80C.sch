@@ -1,0 +1,261 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LAMBDA80C-24S:LAMBDA80C-24S IC2
+U 1 1 60E6FFFC
+P 5400 1850
+F 0 "IC2" H 6100 2115 50  0000 C CNN
+F 1 "LAMBDA80C-24S" H 6100 2024 50  0000 C CNN
+F 2 "LIB_LAMBDA80C-24-Traversant:Lambda80C_24S-traversant" H 6650 1950 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/lambda80c-24s/rf-solutions" H 6650 1850 50  0001 L CNN
+F 4 "RF Transceiver FSK 3.3V 16-Pin SMD Module" H 6650 1750 50  0001 L CNN "Description"
+F 5 "2" H 6650 1650 50  0001 L CNN "Height"
+F 6 "RF SOLUTIONS" H 6650 1550 50  0001 L CNN "Manufacturer_Name"
+F 7 "LAMBDA80C-24S" H 6650 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "223-LAMBDA80C-24S" H 6650 1350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RF-Solutions/LAMBDA80C-24S?qs=17u8i%2FzlE89dhjIrlJ9FHg%3D%3D" H 6650 1250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "LAMBDA80C-24S" H 6650 1150 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/lambda80c-24s/rf-solutions" H 6650 1050 50  0001 L CNN "Arrow Price/Stock"
+	1    5400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 60E8343B
+P 5050 1750
+F 0 "#PWR0105" H 5050 1600 50  0001 C CNN
+F 1 "+3.3V" H 5065 1923 50  0000 C CNN
+F 2 "" H 5050 1750 50  0001 C CNN
+F 3 "" H 5050 1750 50  0001 C CNN
+	1    5050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1750 5050 2050
+Wire Wire Line
+	5050 2050 5400 2050
+Text GLabel 5200 2350 0    50   Input ~ 0
+INT
+Text GLabel 5200 2450 0    50   Input ~ 0
+AN
+Text GLabel 5200 2550 0    50   Input ~ 0
+PWM
+Text GLabel 7100 1850 2    50   Input ~ 0
+CS
+Text GLabel 7100 2050 2    50   Input ~ 0
+MISO
+Text GLabel 7100 1950 2    50   Input ~ 0
+MOSI
+Wire Wire Line
+	7100 1850 6800 1850
+Wire Wire Line
+	6800 1950 7100 1950
+Wire Wire Line
+	7100 2050 6800 2050
+Text GLabel 7100 2150 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	7100 2150 6800 2150
+Wire Wire Line
+	5400 2350 5200 2350
+Wire Wire Line
+	5200 2450 5400 2450
+Wire Wire Line
+	5400 2550 5200 2550
+$Comp
+L Device:C C1
+U 1 1 60E8A87C
+P 7750 2100
+F 0 "C1" H 7865 2146 50  0000 L CNN
+F 1 "10uF" H 7865 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7788 1950 50  0001 C CNN
+F 3 "~" H 7750 2100 50  0001 C CNN
+	1    7750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60E8D51A
+P 8300 2100
+F 0 "C2" H 8415 2146 50  0000 L CNN
+F 1 "100nF" H 8415 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 1950 50  0001 C CNN
+F 3 "~" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 60E8DD1B
+P 7750 1750
+F 0 "#PWR0106" H 7750 1600 50  0001 C CNN
+F 1 "+3.3V" H 7765 1923 50  0000 C CNN
+F 2 "" H 7750 1750 50  0001 C CNN
+F 3 "" H 7750 1750 50  0001 C CNN
+	1    7750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 60E8E6D3
+P 8300 1750
+F 0 "#PWR0107" H 8300 1600 50  0001 C CNN
+F 1 "+3.3V" H 8315 1923 50  0000 C CNN
+F 2 "" H 8300 1750 50  0001 C CNN
+F 3 "" H 8300 1750 50  0001 C CNN
+	1    8300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0108
+U 1 1 60E8EDD5
+P 7750 2400
+F 0 "#PWR0108" H 7750 2150 50  0001 C CNN
+F 1 "GNDREF" H 7755 2227 50  0000 C CNN
+F 2 "" H 7750 2400 50  0001 C CNN
+F 3 "" H 7750 2400 50  0001 C CNN
+	1    7750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0109
+U 1 1 60E8F69C
+P 8300 2400
+F 0 "#PWR0109" H 8300 2150 50  0001 C CNN
+F 1 "GNDREF" H 8305 2227 50  0000 C CNN
+F 2 "" H 8300 2400 50  0001 C CNN
+F 3 "" H 8300 2400 50  0001 C CNN
+	1    8300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1750 8300 1950
+Wire Wire Line
+	8300 2250 8300 2400
+Wire Wire Line
+	7750 2400 7750 2250
+Wire Wire Line
+	7750 1950 7750 1750
+Text GLabel 7100 2250 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	7100 2250 6800 2250
+Wire Wire Line
+	5400 1850 5200 1850
+Wire Wire Line
+	4900 1950 5400 1950
+Wire Wire Line
+	2050 2450 2750 2450
+$Comp
+L power:GNDREF #PWR0104
+U 1 1 60E8132C
+P 4900 1950
+F 0 "#PWR0104" H 4900 1700 50  0001 C CNN
+F 1 "GNDREF" H 4905 1777 50  0000 C CNN
+F 2 "" H 4900 1950 50  0001 C CNN
+F 3 "" H 4900 1950 50  0001 C CNN
+	1    4900 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2550 3950 2550
+Wire Wire Line
+	3950 1950 4250 1950
+Wire Wire Line
+	4250 1850 3950 1850
+Wire Wire Line
+	2500 2550 2750 2550
+Wire Wire Line
+	2500 2350 2750 2350
+Wire Wire Line
+	2750 2250 2500 2250
+Wire Wire Line
+	2500 2150 2750 2150
+Wire Wire Line
+	2750 2050 2500 2050
+Wire Wire Line
+	2500 1950 2750 1950
+Wire Wire Line
+	2750 1850 2500 1850
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 60E7F45D
+P 2050 2450
+F 0 "#PWR0103" H 2050 2300 50  0001 C CNN
+F 1 "+3.3V" H 2065 2623 50  0000 C CNN
+F 2 "" H 2050 2450 50  0001 C CNN
+F 3 "" H 2050 2450 50  0001 C CNN
+	1    2050 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 2350 0    50   Input ~ 0
+MOSI
+Text GLabel 2500 2250 0    50   Input ~ 0
+MISO
+Text GLabel 2500 2150 0    50   Input ~ 0
+SCK
+Text GLabel 2500 2050 0    50   Input ~ 0
+CS
+Text GLabel 2500 1950 0    50   Input ~ 0
+RESET
+Text GLabel 2500 1850 0    50   Input ~ 0
+AN
+$Comp
+L power:GNDREF #PWR0102
+U 1 1 60E7E620
+P 2500 2550
+F 0 "#PWR0102" H 2500 2300 50  0001 C CNN
+F 1 "GNDREF" H 2505 2377 50  0000 C CNN
+F 2 "" H 2500 2550 50  0001 C CNN
+F 3 "" H 2500 2550 50  0001 C CNN
+	1    2500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 60E7CCBB
+P 4200 2550
+F 0 "#PWR0101" H 4200 2300 50  0001 C CNN
+F 1 "GNDREF" H 4205 2377 50  0000 C CNN
+F 2 "" H 4200 2550 50  0001 C CNN
+F 3 "" H 4200 2550 50  0001 C CNN
+	1    4200 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 1950 2    50   Input ~ 0
+INT
+Text GLabel 4250 1850 2    50   Input ~ 0
+PWM
+$Comp
+L MIKROE-924:MIKROE-924 IC1
+U 1 1 60E71ED5
+P 2750 1850
+F 0 "IC1" H 3350 2115 50  0000 C CNN
+F 1 "MIKROE-924" H 3350 2024 50  0000 C CNN
+F 2 "MIKROE-924:MIKROE924" H 3800 1950 50  0001 L CNN
+F 3 "https://www.mikroe.com/microsd-click" H 3800 1850 50  0001 L CNN
+F 4 "microSD click mikroBUS" H 3800 1750 50  0001 L CNN "Description"
+F 5 "5" H 3800 1650 50  0001 L CNN "Height"
+F 6 "MIKROELEKTRONIKA" H 3800 1550 50  0001 L CNN "Manufacturer_Name"
+F 7 "MIKROE-924" H 3800 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "932-MIKROE-924" H 3800 1350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=932-MIKROE-924" H 3800 1250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3800 1150 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3800 1050 50  0001 L CNN "Arrow Price/Stock"
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
