@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "ESP32-DEVKITC-32D")(type "KiCad")(uri "/home/lucas/Documents/stage/repo/flatsat/Hardware/Library/ESP32-DEVKITC-32D")(options "")(descr ""))
+  (lib (name "Conn_2x19")(type "KiCad")(uri "/home/lucas/Documents/stage/repo/flatsat/Hardware/Library/Conn_2x19")(options "")(descr ""))
+  (lib (name "Connector_PinSocket_2.54mm")(type "KiCad")(uri "/home/lucas/Documents/stage/repo/flatsat/Hardware/Library/Connector_PinSocket_2.54mm.pretty")(options "")(descr ""))
 )
