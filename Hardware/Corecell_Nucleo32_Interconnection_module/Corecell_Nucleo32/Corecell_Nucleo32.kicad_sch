@@ -1345,7 +1345,6 @@
     )
   )
 
-
   (junction (at 125.73 167.64) (diameter 0) (color 0 0 0 0)
     (uuid 0f38dbcb-46ae-45d0-9913-5aa06d311345)
   )
@@ -3445,7 +3444,7 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid c27c8a78-e916-4c8f-96b7-7084251590d4)
   )
-  (text "Reset jumpers\n" (at 275.59 119.38 0)
+  (text "Reset button\n" (at 275.59 119.38 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid cd2663a0-c441-4469-9df5-a538aee6e7a3)
   )
@@ -4024,7 +4023,7 @@
     (uuid 045a038b-a69b-4316-b8fe-886cee7568b8)
     (property "Reference" "JP3" (id 0) (at 328.93 130.81 0))
     (property "Value" "Jumper_MCU_Reset_Open" (id 1) (at 328.93 133.35 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 328.93 137.16 0)
+    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" (id 2) (at 328.93 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 328.93 137.16 0)
@@ -4495,7 +4494,7 @@
     (uuid 7bedfbfb-5f5d-4a06-8921-aa55997b07ca)
     (property "Reference" "JP2" (id 0) (at 289.56 130.81 0))
     (property "Value" "Jumper_STANDY_GPS_Open" (id 1) (at 289.56 133.35 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 289.56 137.16 0)
+    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" (id 2) (at 289.56 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 289.56 137.16 0)
@@ -4775,7 +4774,7 @@
     (uuid b9905870-ff76-45f2-986e-d6a250ecc088)
     (property "Reference" "JP1" (id 0) (at 250.19 130.81 0))
     (property "Value" "Jumper_RESET_GPS_Open" (id 1) (at 250.19 133.35 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 250.19 137.16 0)
+    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" (id 2) (at 250.19 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 250.19 137.16 0)
@@ -5272,13 +5271,13 @@
       (reference "J7") (unit 1) (value "RAK5146_SPI_groove(MCU)") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/b9905870-ff76-45f2-986e-d6a250ecc088"
-      (reference "JP1") (unit 1) (value "Jumper_RESET_GPS_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "JP1") (unit 1) (value "Jumper_RESET_GPS_Open") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
     )
     (path "/7bedfbfb-5f5d-4a06-8921-aa55997b07ca"
-      (reference "JP2") (unit 1) (value "Jumper_STANDY_GPS_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "JP2") (unit 1) (value "Jumper_STANDY_GPS_Open") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
     )
     (path "/045a038b-a69b-4316-b8fe-886cee7568b8"
-      (reference "JP3") (unit 1) (value "Jumper_MCU_Reset_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "JP3") (unit 1) (value "Jumper_MCU_Reset_Open") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
     )
     (path "/c520be4c-2d19-4f07-9435-cdcabfb6b7b4"
       (reference "Q1") (unit 1) (value "BC548") (footprint "Package_TO_SOT_THT:TO-92_Inline")
