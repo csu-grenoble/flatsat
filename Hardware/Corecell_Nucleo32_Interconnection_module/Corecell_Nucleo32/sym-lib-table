@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name "SX_Loracell")(type "Legacy")(uri "/home/lucas/Documents/stage/repo/flatsat/Hardware/Library/Corecell_Nucleo32/SX130x_e539v03a_Interface-SchDoc-cache.lib")(options "")(descr ""))
-  (lib (name "ESP32")(type "Legacy")(uri "/home/lucas/Documents/stage/repo/flatsat/Hardware/Library/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
-  (lib (name "Corecell_Intercon_Board")(type "KiCad")(uri "/home/lucas/Documents/stage/repo/flatsat/Hardware/Library/Corecell_Intercon_Board.kicad_sym")(options "")(descr ""))
-)
