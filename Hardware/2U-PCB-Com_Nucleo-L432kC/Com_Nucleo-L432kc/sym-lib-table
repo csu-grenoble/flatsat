@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SX_Loracell")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/Corecell_Nucleo32/SX_Loracell.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32L432KC")(type "KiCad")(uri "${KIPRJMOD}/STM32L432KC.kicad_sym")(options "")(descr ""))
+)
