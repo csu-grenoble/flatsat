@@ -3,4 +3,5 @@
   (lib (name "SX_Loracell")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/Corecell_Nucleo32/SX_Loracell.kicad_sym")(options "")(descr ""))
   (lib (name "STM32L432KC")(type "KiCad")(uri "${KIPRJMOD}/STM32L432KC.kicad_sym")(options "")(descr ""))
   (lib (name "ETA3000")(type "Legacy")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/ETA3000.lib")(options "")(descr ""))
+  (lib (name "2023-06-06_07-55-18")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/ul_L9616/KiCADv6/2023-06-06_07-55-18.kicad_sym")(options "")(descr ""))
 )
