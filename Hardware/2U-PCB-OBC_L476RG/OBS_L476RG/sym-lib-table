@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "L476RG")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/NUCLEO_L476RG/L476RG.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74AHC1")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/SN74AHC1/SN74AHC1.kicad_sym")(options "")(descr ""))
+)

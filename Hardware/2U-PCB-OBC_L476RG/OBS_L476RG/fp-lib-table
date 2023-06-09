@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/NUCLEO_L476RG/Library.pretty")(options "")(descr ""))
+  (lib (name "Nucleo")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/NUCLEO_L476RG/Nucleo.pretty")(options "")(descr ""))
+  (lib (name "flatsat_conn")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/flatsat_conn.pretty")(options "")(descr ""))
+)
