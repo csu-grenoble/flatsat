@@ -890,58 +890,6 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -982,46 +930,6 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
   )
 
   (junction (at 111.76 92.71) (diameter 0) (color 0 0 0 0)
@@ -1033,14 +941,8 @@
   (junction (at 46.99 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 361d2543-5878-45d7-89fe-1d6b3d99f79b)
   )
-  (junction (at 104.14 82.55) (diameter 0) (color 0 0 0 0)
-    (uuid 4ad8ffad-63e9-43b1-991a-2c04adec5f45)
-  )
   (junction (at 26.67 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 547f84d7-5a47-40d0-8d36-7fd591f988e0)
-  )
-  (junction (at 105.41 66.04) (diameter 0) (color 0 0 0 0)
-    (uuid be820569-d23b-43e2-81b0-68ea5ba085f3)
   )
   (junction (at 111.76 85.09) (diameter 0) (color 0 0 0 0)
     (uuid bf27ab12-63d1-4a58-b0c5-b5580f941d31)
@@ -1070,6 +972,7 @@
   (no_connect (at 162.56 62.23) (uuid 34d89564-aabc-4ec6-abcd-fe43339e7d81))
   (no_connect (at 162.56 97.79) (uuid 385b0653-3c97-4be8-9b24-d56534ccf2f6))
   (no_connect (at 226.06 72.39) (uuid 39a44db8-0346-4fa0-8895-86fc81a9a138))
+  (no_connect (at 120.65 82.55) (uuid 3ebb008f-5049-40f0-a98d-9cee952dab91))
   (no_connect (at 120.65 80.01) (uuid 44d7ec15-db49-411a-afb4-f40f75c12ee4))
   (no_connect (at 120.65 105.41) (uuid 47953795-5dd0-4f19-ad81-0c9c876e261c))
   (no_connect (at 252.73 67.31) (uuid 57868395-bbbc-461a-badc-8ab0fe7c562c))
@@ -1110,6 +1013,7 @@
   (no_connect (at 226.06 69.85) (uuid e0feb95b-42be-4414-92e7-1526ceb53bc8))
   (no_connect (at 120.65 133.35) (uuid ed01a7e6-1964-437d-91d2-0fa8168c898f))
   (no_connect (at 120.65 123.19) (uuid f1d12642-afd1-45a0-8e73-1ed629c95ab3))
+  (no_connect (at 120.65 77.47) (uuid f227b49d-d03e-4d9e-9eb0-74d7628a3a3a))
   (no_connect (at 120.65 64.77) (uuid f43b9321-6445-4c93-a982-f9dd39e6b595))
   (no_connect (at 248.92 62.23) (uuid ffc2f6c1-5efc-4823-9afc-089c1e72d1e6))
 
@@ -1393,10 +1297,6 @@
     (stroke (width 0) (type default))
     (uuid a4787f25-0e37-4434-8803-de61dca1622c)
   )
-  (wire (pts (xy 120.65 77.47) (xy 105.41 77.47))
-    (stroke (width 0) (type default))
-    (uuid a480af67-88d8-4f63-809c-7294d7f8f51a)
-  )
   (wire (pts (xy 180.34 123.19) (xy 162.56 123.19))
     (stroke (width 0) (type default))
     (uuid aa9c2f3d-02cb-4ebe-b687-0a01522c7271)
@@ -1437,10 +1337,6 @@
     (stroke (width 0) (type default))
     (uuid bb3d037b-8e5c-4374-b43c-eb9f38b0528e)
   )
-  (wire (pts (xy 120.65 82.55) (xy 104.14 82.55))
-    (stroke (width 0) (type default))
-    (uuid bb6de96f-0605-4877-a71c-8215779a9158)
-  )
   (wire (pts (xy 180.34 120.65) (xy 162.56 120.65))
     (stroke (width 0) (type default))
     (uuid bb9ec398-64d7-402f-8daa-e9e9aa1400be)
@@ -1456,10 +1352,6 @@
   (wire (pts (xy 222.25 100.33) (xy 226.06 100.33))
     (stroke (width 0) (type default))
     (uuid cd122b50-2dd7-4236-89bc-f896d8975136)
-  )
-  (wire (pts (xy 105.41 62.23) (xy 105.41 66.04))
-    (stroke (width 0) (type default))
-    (uuid d2992c75-5747-4604-93cc-2ebe429f98f7)
   )
   (wire (pts (xy 171.45 87.63) (xy 171.45 149.86))
     (stroke (width 0) (type default))
@@ -1497,14 +1389,6 @@
     (stroke (width 0) (type default))
     (uuid eb574fd2-7ec3-4a4d-a6cf-038505ee301a)
   )
-  (wire (pts (xy 104.14 82.55) (xy 100.33 82.55))
-    (stroke (width 0) (type default))
-    (uuid eeee0752-a6a8-477a-a40e-42711c548b6e)
-  )
-  (wire (pts (xy 105.41 66.04) (xy 105.41 77.47))
-    (stroke (width 0) (type default))
-    (uuid f0620e1b-3df3-4fdf-9933-bb9eb9939268)
-  )
   (wire (pts (xy 39.37 78.74) (xy 46.99 78.74))
     (stroke (width 0) (type default))
     (uuid f08b2a38-4483-4b58-be02-561353e88ef2)
@@ -1520,10 +1404,6 @@
   (wire (pts (xy 222.25 102.87) (xy 226.06 102.87))
     (stroke (width 0) (type default))
     (uuid f1ea973c-63c3-452c-b06d-59912be03034)
-  )
-  (wire (pts (xy 100.33 82.55) (xy 100.33 77.47))
-    (stroke (width 0) (type default))
-    (uuid f9f6e874-3e97-407b-8b20-0a25231d5ad4)
   )
   (wire (pts (xy 222.25 59.69) (xy 226.06 59.69))
     (stroke (width 0) (type default))
@@ -1805,7 +1685,7 @@
     (pin "1" (uuid 82233228-eb62-4dc0-9fa4-78e2b675f186))
     (pin "2" (uuid ec76e6a4-bc05-42a5-86f9-be43716001aa))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "C2") (unit 1)
         )
@@ -1830,7 +1710,7 @@
     )
     (pin "1" (uuid f4790755-6812-430e-9499-4282bcd6560f))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR06") (unit 1)
         )
@@ -1856,7 +1736,7 @@
     (pin "1" (uuid c6494f7e-116a-4226-b6eb-3ca3a9cc5a41))
     (pin "2" (uuid 9123f25d-2c23-45c7-9b1f-8dd0129f60b3))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "R1") (unit 1)
         )
@@ -1925,7 +1805,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "J1") (unit 1)
         )
@@ -1933,56 +1813,6 @@
       (project "Corecell_Nucleo32"
         (path "/4ae30ec6-0f79-4da8-b14c-df90c5069122"
           (reference "J3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 105.41 66.04 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 64c4b6cb-4e5d-4de7-a799-c5c949967e96)
-    (property "Reference" "#FLG01" (at 103.505 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 101.6 66.04 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 105.41 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 105.41 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 854aa453-621a-4d8b-9878-530b893bc69b))
-    (instances
-      (project "OBS_L476RG"
-        (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
-          (reference "#FLG01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 104.14 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 70457a29-a11b-4daf-b3b2-3a45c45b1335)
-    (property "Reference" "#FLG02" (at 104.14 80.645 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 104.14 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 104.14 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 104.14 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 29778295-a1d0-4bc0-9044-305c4755db94))
-    (instances
-      (project "OBS_L476RG"
-        (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
-          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -2015,7 +1845,7 @@
     (pin "8" (uuid 0da76cf0-c520-4dfc-8a7a-e26e6554a20f))
     (pin "9" (uuid d395a1b5-f8ef-4124-a2e9-a5e219f631e9))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "J2") (unit 1)
         )
@@ -2040,7 +1870,7 @@
     )
     (pin "1" (uuid 7b0a7850-78b3-42b0-a514-8c9fc0520d93))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR04") (unit 1)
         )
@@ -2069,7 +1899,7 @@
     (pin "4" (uuid 9b5cec90-ab20-4a9a-a81c-5e62f1b5c843))
     (pin "5" (uuid fda41e6b-78e9-4837-82ac-3274d91bdc81))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "B1") (unit 1)
         )
@@ -2094,7 +1924,7 @@
     )
     (pin "1" (uuid 8d50d28c-476c-4ef0-9380-e4b1efc95e72))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR02") (unit 1)
         )
@@ -2119,7 +1949,7 @@
     )
     (pin "1" (uuid 6d2e408b-b0d0-4960-a787-21ab9fffd60c))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR09") (unit 1)
         )
@@ -2144,7 +1974,7 @@
     )
     (pin "1" (uuid 613953ed-497e-4c39-97e4-51e3bb9f466e))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR07") (unit 1)
         )
@@ -2169,59 +1999,9 @@
     )
     (pin "1" (uuid 937dbe51-9657-4706-828f-8239badaff9f))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 105.41 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b5080d06-4cc3-4c25-aa89-26ffa40d873a)
-    (property "Reference" "#PWR010" (at 105.41 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 105.41 57.15 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 105.41 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 105.41 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4e012a0e-ab06-4d53-b10b-eaec1e878865))
-    (instances
-      (project "OBS_L476RG"
-        (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
-          (reference "#PWR010") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 100.33 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b73df1dc-7720-488a-8e2b-90f959693d7c)
-    (property "Reference" "#PWR013" (at 100.33 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 100.33 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 100.33 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d7e7e7fd-6cbc-4dcf-af92-478d90caba29))
-    (instances
-      (project "OBS_L476RG"
-        (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
-          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2244,7 +2024,7 @@
     )
     (pin "1" (uuid 5de6c63b-d3ce-4ab3-b04c-1b7a15368093))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR08") (unit 1)
         )
@@ -2270,7 +2050,7 @@
     (pin "1" (uuid 703e88af-ebd5-4339-85e3-3de8fedce301))
     (pin "2" (uuid 1f3c471b-6235-41c6-8824-6579a03ea6e6))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "C1") (unit 1)
         )
@@ -2295,7 +2075,7 @@
     )
     (pin "1" (uuid ffd7c482-68ba-4c94-a323-d3e48f0d6e7c))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR01") (unit 1)
         )
@@ -2320,7 +2100,7 @@
     )
     (pin "1" (uuid adf4fb24-65dc-46a3-82a9-853f7b6ac852))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "#PWR05") (unit 1)
         )
@@ -2420,7 +2200,7 @@
     (pin "9" (uuid 47633401-6ae9-4ac3-b267-d486494e5426))
     (pin "33" (uuid 89792bae-9310-4c21-9404-5f7df1a4fcc8))
     (instances
-      (project "OBS_L476RG"
+      (project "OBC_L476RG"
         (path "/3074c2c6-4fd2-48c4-846c-d9e7f42bd5d3"
           (reference "U2") (unit 1)
         )
