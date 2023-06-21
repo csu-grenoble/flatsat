@@ -5198,7 +5198,7 @@
     (property "Value" "Jumper_STANDBY_GPS_Open" (at 50.165 136.525 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 50.165 140.335 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 50.165 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.165 140.335 0)
@@ -5323,13 +5323,13 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 276.225 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1201c68-e17b-4e45-87e7-35b112973a3f)
-    (property "Reference" "JP6" (at 276.225 259.08 0)
+    (property "Reference" "JP5" (at 276.225 259.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "speed_controller" (at 276.225 261.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 276.225 265.43 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 276.225 265.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 276.225 265.43 0)
@@ -5340,7 +5340,7 @@
     (instances
       (project "Com_Nucleo-L432kc"
         (path "/0b43379d-830f-4a2c-bf01-7ac511af3f6d"
-          (reference "JP6") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
       (project "Corecell_Nucleo32"
