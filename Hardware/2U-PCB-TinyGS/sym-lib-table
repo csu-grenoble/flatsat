@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MIKROE-924")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/LIB_MIKROE-924/MIKROE-924/KiCad/MIKROE-924.lib")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC-32D")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
+  (lib (name "U.FL-R-SMT_01_")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/U.FL-R-SMT_01_/U.FL-R-SMT_01_.lib")(options "")(descr ""))
+  (lib (name "SMA-J-P-H-ST-EM1")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/SMA-J-P-H-ST-EM1/SMA-J-P-H-ST-EM1.lib")(options "")(descr ""))
+)
