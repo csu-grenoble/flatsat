@@ -4,4 +4,5 @@
   (lib (name "ESP32-DEVKITC-32D")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
   (lib (name "U.FL-R-SMT_01_")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/U.FL-R-SMT_01_/U.FL-R-SMT_01_.lib")(options "")(descr ""))
   (lib (name "SMA-J-P-H-ST-EM1")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/SMA-J-P-H-ST-EM1/SMA-J-P-H-ST-EM1.lib")(options "")(descr ""))
+  (lib (name "CAN_buffer")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/ul_L9616/KiCADv6/2023-06-06_07-55-18.kicad_sym")(options "")(descr ""))
 )

@@ -9,4 +9,5 @@
   (lib (name "SMA-J-P-H-ST-EM1")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/SMA-J-P-H-ST-EM1")(options "")(descr ""))
   (lib (name "U")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/U.FL-R-SMT_01_")(options "")(descr ""))
   (lib (name "flatsat_conn")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/flatsat_conn.pretty")(options "")(descr ""))
+  (lib (name "CAN_buffer")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/ul_L9616/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
