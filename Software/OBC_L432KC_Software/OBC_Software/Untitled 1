@@ -1,0 +1,49 @@
+enum GPIO_A{
+	PA_0,
+	PA_1,
+	PA_2,
+	PA_3,
+	PA_4,
+	PA_5,
+	PA_6,
+	PA_7,
+	PA_8,
+	PA_9,
+	PA_10,
+	PA_11,
+	PA_12,
+};
+
+enum GPIO_B{
+	PB_0=13,
+	PB_1=14,
+	PB_2=15,
+	PB_3=16,
+	PB_4=17,
+	PB_5=18,
+	PB_6=19,
+	PB_7=20
+};
+
+enum PinName {
+	D0 = GPIO_A::PA_10,
+	D1 = GPIO_A::PA_9,
+	D2 = GPIO_A::PA_12,
+	D3 = GPIO_B::PB_0,
+	D4 = GPIO_B::PB_7,
+	D5 = GPIO_B::PB_6,
+	D6 = GPIO_B::PB_1,
+	D9 = GPIO_A::PA_8,
+	D10 = GPIO_A::PA_11,
+	D11 = GPIO_B::PB_5,
+	D12 = GPIO_B::PB_4,
+	D13 = GPIO_B::PB_3,
+	A0 = GPIO_A::PA_0,
+	A1 = GPIO_A::PA_1,
+	A2 = GPIO_A::PA_3,
+	A3 = GPIO_A::PA_4,
+	A4 = GPIO_A::PA_5,
+	A5 = GPIO_A::PA_6,
+	A6 = GPIO_A::PA_7,
+	A7 = GPIO_A::PA_2
+};
