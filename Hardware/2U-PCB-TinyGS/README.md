@@ -4,7 +4,7 @@ This board is the firts version of the 2.4GHz gateway for [TinyGS](https://tinyg
 
 Contain Schematic and PCB file for ESP32 Vroom + 2 Mikrobus modules + 2 groves connectors (RXTX,I2C).
 
-This Board is designed to support a ESP32 devkitC-V4 and 2 MiKroBus modules. This board is the firts version of the 2.4GHz tinygs ground station gateway and named Board_V1
+This Board is designed to support a ESP32 devkitC-V4 and 2 MiKroBus modules. This board is the firts version of the 2.4GHz tinygs ground station gateway and named Board_V2
 
 The purpose of this board is to control mikrobus modules including SX1280 technology that will transmit and receive messages on a 2.4GHz radio frequency. Each module are connected to a ESP32 which will be connected to the wifi.
 
@@ -21,8 +21,8 @@ MiKroBus 0:
 	NSS(CS)	IO05
 	
 	UART_0	:
-	Tx	IO01
-	Rx	IO03
+	Tx	NC
+	Rx	NC
 	
 	I2C:
 	SDA	IO21
@@ -99,7 +99,4 @@ Lib & empreinte folder contains all necessary symbol and footprint for the proje
 * sym-info-cache: Library list file (symbol library table): declaration of component symbol libraries available for the schema editor.
 * fp-lib-table: Library list file (footprint library table): declaration of component footprint libraries available for the PCB editor.
 
-## Rendered
 
-![Printing_feedback_top](https://github.com/thingsat/tinygs_2g4station/blob/main/Board_Tinysgs_2.4GHz_V1/Picture/Printing_feedback_top.PNG) 
-![Printing_feedback_bellow](https://github.com/thingsat/tinygs_2g4station/blob/main/Board_Tinysgs_2.4GHz_V1/Picture/Printing_feedback_bottom.PNG) 
