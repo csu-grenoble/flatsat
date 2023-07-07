@@ -28,10 +28,7 @@
  *
  * PB7 -> UART1_RX
  * PB6 -> UART1_TX
- *
- *
- *
- * */
+ */
 
 int main(void)
 {
