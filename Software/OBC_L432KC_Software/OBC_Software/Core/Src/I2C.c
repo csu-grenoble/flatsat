@@ -3,6 +3,7 @@
 #include <stdint.h>
 
 
+
 //**************************CODE**************************
 
 // ***********************************************************************************************************************//
@@ -20,6 +21,7 @@ void I2C_Init(void){
 	 * 4.Configure PRESC[3:0], SDADEL[3:0], SCLDEL[3:0], SCLH[7:0], SCLL[7:0] in I2C_TIMINGR
 	 * ( see calculus in spreadsheet )
 	 * 5.Configure NOSTRETCH in I2C_CR1
+	 * 6.
 	 */
 
 	//1.Clear PE bit in I2C_CR1
@@ -40,7 +42,7 @@ void I2C_Init(void){
 	I2C1->CR1 |= (1<<17); //Clock stretch disabled
 
 	//6. Enable PE
-	I2C->CR1 |= (1<<0); // PE bit setted
+	I2C1->CR1 |= (1<<0); // PE bit setted
 
 }
 
@@ -61,29 +63,91 @@ void I2C_Start(void){
 // Return          : N/A
 // ***********************************************************************************************************************//
 void I2C_Stop(void){
-	//I2C1->CR1 &= ~(1<<0);  // Clear PE bit
+	I2C1->CR2 |= (1<<14);  // Clear PE bit
 }
 
 // ***********************************************************************************************************************//
 // Function  name  : I2C_Address
 // Description     : Master locking the address of the slave
-// Parameters      : N/A
-// Return          : N/A
+// Parameters      : Address of slave device to be read
+// Return          : NACK verification (0 for working address)
 // ***********************************************************************************************************************//
-void I2C_Address(uint8_t Address){
+int8_t I2C_Address(uint8_t Address){
 	/* Master communication initialization (address phase) 1149 page of user manual pdf
-
+	 *0. Ensure STOP in I2C1_CR2 and AUTOEND = 0
 	 *1. In I2C CR_2 choose addressing mode (7 BIT)
 	 *2. In I2C CR_2set SADD
 	 *3. In I2C CR_2 set the transfer direction RD_WRN
 	 *4. In I2C CR_2 set NBYTES to transfer.
+	 *5. Set start bit in I2C CR_2
+	 *6. Wait ACK
 	 * */
 
+	//0. Ensure STOP in I2C1_CR2 and AUTOEND=0
+	I2C1->CR2 |= (1<<14);
+	I2C1->CR2 &= ~(1<<25);
 
+	//1. In I2C CR_2 choose addressing mode (7 BIT)
+	I2C1->CR2 &= ~(1<<11);
+
+	//2. In I2C CR_2set SADD
+	I2C1->CR2 |= (Address<<1);
+
+	//3. In I2C CR_2 set the transfer direction RD_WRN (write for addressing phase)
+	I2C1->CR2 &= ~(1<<10);
+
+	//4. In I2C CR_2 set NBYTES to transfer. (writing 1 bit)
+	I2C1->CR2 |= (1<<16);
+
+	//5. Set start bit in I2C CR_2
+	I2C1->CR2 |= (1<<13);
+
+
+	if((I2C->ISR & (1<<4)))
+		return I2C_NACK;
+
+	return 0;
 }
 
+// ***********************************************************************************************************************//
+// Function  name  : I2C_Write
+// Description     : Master writing function in I2C slave device
+// Parameters      : data to be written in slave device ( or register address )
+// Return          : NACK verification (0 for working address)
+// ***********************************************************************************************************************//
+void I2C_Write(uint8_t *data, uint8_t size){
+	/* Flowchart in the page 1152 (Figure 369)
+	 *
+	 *1. Wait for TXIS in ISR register to be set ( = 1)
+	 *2. Loop for writing multiple size data in I2C1_TXDR
+	 *3. Wait for I2C1_ISR.TC to be set
+	 * */
+	while( (I2C1->ISR & I2C_ISR_TXIS) == 0);
+
+	while(size){
+		while( (I2C1->ISR & I2C_ISR_TXIS) == 0);
+		I2C1->TXDR = *data++;
+		size--;
+	}
+	while( (I2C1->ISR & I2C_ISR_TC) == 0 );
+}
+
+// ***********************************************************************************************************************//
+// Function  name  : I2C_Write
+// Description     : Master writing function in I2C slave device
+// Parameters      : data to be written in slave device ( or register address )
+// Return          : NACK verification (0 for working address)
+// ***********************************************************************************************************************//
 
 
+void I2C_Read(uint8_t Address, uint8_t *buffer, uint8_t size){
+	/*Figure 372 Flowchart
+	 *1. Write the slave address
+	 *4. Wait for I2C_ISR.RXNE = 1
+	 *5. Loop to read I2C_RXDR
+	 *6. Wait for I2C1_ISR.TC to be set
+	 * */
+}
 
 
 
