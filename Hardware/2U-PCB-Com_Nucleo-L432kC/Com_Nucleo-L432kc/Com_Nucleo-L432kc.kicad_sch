@@ -2936,7 +2936,7 @@
     (uuid fb4c582e-05a9-4940-8d2a-46657112af95)
   )
 
-  (label "TX_CALC" (at 268.605 158.75 180) (fields_autoplaced)
+  (label "TX_CALC" (at 268.605 161.29 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 01471db9-d4b2-4ef6-9e19-0bdecd8c84eb)
   )
@@ -3024,7 +3024,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4af7936e-9e99-44e3-aed2-281bbab0be18)
   )
-  (label "RX_CALC" (at 268.605 161.29 180) (fields_autoplaced)
+  (label "RX_CALC" (at 268.605 158.75 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4ba11330-2ebc-4984-ab02-32bc08c794d6)
   )
@@ -3083,10 +3083,6 @@
   (label "CS_MCU" (at 50.165 263.525 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7a3b7b1b-9554-45e1-aff9-c9ba64b139a9)
-  )
-  (label "3.3V" (at 33.02 248.285 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8057f17f-7d05-4a65-905e-a026c6242383)
   )
   (label "MKB_MISO" (at 330.2 91.44 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -5092,6 +5088,36 @@
       (project "Corecell_Nucleo32"
         (path "/4ae30ec6-0f79-4da8-b14c-df90c5069122"
           (reference "#PWR0110") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 33.02 248.285 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c1376879-55aa-45ee-aec2-d8df3ad8c0c5)
+    (property "Reference" "#PWR09" (at 33.02 252.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 27.94 245.11 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 33.02 248.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 33.02 248.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6e65e74-17c9-4fc1-8c29-c6bb1755098f))
+    (instances
+      (project "Com_Nucleo-L432kc"
+        (path "/0b43379d-830f-4a2c-bf01-7ac511af3f6d"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Corecell_Nucleo32"
+        (path "/4ae30ec6-0f79-4da8-b14c-df90c5069122"
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
