@@ -1,8 +1,8 @@
 #ifndef INC_CLOCKS_H_
 #define INC_CLOCKS_H_
 
-	ClockConfiguration();
-	SetClocks();
+	void ClockConfiguration(void);
+	void SetClocks(void);
 
 
 

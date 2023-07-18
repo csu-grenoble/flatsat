@@ -34,19 +34,29 @@ void InitPeripheral(){
 //MODER CONFIG
 
 	GPIOA->MODER |= (1<<19); // AF to PA9
+	GPIOA->MODER &= ~(1<<18); // AF to PA9
+
 	GPIOA->MODER |= (1<<21); // AF to PA10
+	GPIOA->MODER &= ~(1<<20);
+
 
 	GPIOB->MODER |= (1<<13); //AF to PB6
+	GPIOB->MODER &= ~(1<<12);
+
 	GPIOB->MODER |= (1<<15); //AF to PB7
+	GPIOB->MODER &= ~(1<<14); //AF to PB7
 
 //AFR CONFIG
 
+	GPIOA->AFR[1] &= ~(0b1111<<4); //I2C_SCL | AF4
 	GPIOA->AFR[1] |= (1<<6); //I2C_SCL | AF4
+
+	GPIOA->AFR[1] &= ~(0b1111<<8); //I2C_SDA | AF4
 	GPIOA->AFR[1] |= (1<<10); //I2C_SDA | AF4
 
-	GPIOB->AFR[0] |= (111<<26); //UART1_RX |AF7
-	GPIOB->AFR[0] |= (111<<30);	//UART1_TX |AF7
-
+	/*GPIOB->AFR[0] |= (0b111<<26); //UART1_RX |AF7
+	GPIOB->AFR[0] |= (0b111<<30);	//UART1_TX |AF7
+	 */
 }
 
 
