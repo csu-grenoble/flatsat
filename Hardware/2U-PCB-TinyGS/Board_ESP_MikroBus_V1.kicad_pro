@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.0,
-          "width": 1.6
+          "drill": 1.04,
+          "height": 1.56,
+          "width": 1.56
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|95567718|38157651|e0bb7048-3bc4-475e-bfee-e4f7b9344056|70c8105a-21e4-4abc-bd3b-0d076063d9c9"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
