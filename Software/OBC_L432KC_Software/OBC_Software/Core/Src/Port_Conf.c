@@ -36,8 +36,12 @@ void InitPeripheral(){
 	GPIOA->MODER |= (1<<19); // AF to PA9
 	GPIOA->MODER &= ~(1<<18); // AF to PA9
 
+	GPIOA->OTYPER |= (1<<9);//
+
 	GPIOA->MODER |= (1<<21); // AF to PA10
 	GPIOA->MODER &= ~(1<<20);
+
+	GPIOA->OTYPER |= (1<<10);//
 
 
 	GPIOB->MODER |= (1<<13); //AF to PB6

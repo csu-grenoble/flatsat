@@ -3,7 +3,7 @@
 
 //********************************User macro***********************************
 
-#define MPL3115A2_ADDRESS (0x60) ///< default I2C address
+#define MPL3115A2_ADDRESS (0x60) ///< default 7 bit I2C address
 
 /** MPL3115A2 registers **/
 enum {

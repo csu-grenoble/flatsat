@@ -1,0 +1,59 @@
+/*****Headers Include*********/
+#include "Port_Conf.h"
+#include "stm32l4xx.h"
+
+/******   CODE     ************/
+
+/* Projects Requirements
+
+* PA9 -> I2C_SCL | AF4
+* PA10 -> I2C_SDA | AF4
+*
+* PA12 -> CAN1_TD | AF7
+* PA11 -> CAN1_RD | AF7
+*
+* PB7 -> UART1_RX
+* PB6 -> UART1_TX
+*
+* PB0 -> PWM_MAG_Y
+* PB1 ->PWM_MIKROBUS
+* PA8 -> PWM_ROU/MAG-X
+
+
+*
+*/
+
+// ***********************************************************************************************************************//
+// Function  name  : InitPeripheral
+// Description     : Configures I/O port of the microcontroller
+// Parameters      : N/A
+// Return          : N/A
+// ***********************************************************************************************************************//
+void InitPeripheral(){
+
+//MODER CONFIG
+
+	GPIOA->MODER |= (1<<19); // AF to PA9
+	GPIOA->MODER &= ~(1<<18); // AF to PA9
+
+	GPIOA->MODER |= (1<<21); // AF to PA10
+	GPIOA->MODER &= ~(1<<20);
+
+
+	GPIOB->MODER |= (1<<13); //AF to PB6
+	GPIOB->MODER &= ~(0<<12);
+
+	GPIOB->MODER |= (1<<15); //AF to PB7
+	GPIOB->MODER &= ~(0<<14); //AF to PB7
+
+//AFR CONFIG
+
+	GPIOA->AFR[1] |= (1<<6); //I2C_SCL | AF4
+	GPIOA->AFR[1] |= (1<<10); //I2C_SDA | AF4
+
+	/*GPIOB->AFR[0] |= (0b111<<26); //UART1_RX |AF7
+	GPIOB->AFR[0] |= (0b111<<30);	//UART1_TX |AF7
+	 */
+}
+
+

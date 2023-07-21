@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;OBC_Software/Core/Src/main_master.c&apos;" deleteContents="false" description="Delete resource &apos;OBC_Software/Core/Src/main_master.c&apos;" element1="/OBC_Software/Core/Src/main_master.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1689596607653"/>&#x0A;<refactoring comment="Delete resource &apos;OBC_Software/main_master.c&apos;" deleteContents="false" description="Delete resource &apos;OBC_Software/main_master.c&apos;" element1="/OBC_Software/main_master.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1689670718967"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OBC_Software/Core/CSUG-library/Inc/TImer.h&apos; to &apos;Timer.h&apos;" description="Rename resource &apos;TImer.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/CSUG-library/Inc/TImer.h" name="Timer.h" stamp="1688027565845" updateReferences="true"/>
+</session>

@@ -1,0 +1,2 @@
+../Core/Src/Clocks.c:34:6:ClockConfiguration	96	static
+../Core/Src/Clocks.c:129:6:SetClocks	4	static

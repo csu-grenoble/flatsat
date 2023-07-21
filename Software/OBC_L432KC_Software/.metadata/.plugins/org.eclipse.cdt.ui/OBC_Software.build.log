@@ -1,0 +1,24 @@
+16:54:18 **** Incremental Build of configuration Debug for project OBC_Software ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L432xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:10: warning: unused variable 'buf' [-Wunused-variable]
+  106 |  uint8_t buf[2] = {0x55,0x55};
+      |          ^~~
+../Core/Src/main.c:104:11: warning: unused variable 'buffer' [-Wunused-variable]
+  104 |  uint8_t *buffer=0;
+      |           ^~~~~~
+arm-none-eabi-g++ -o "OBC_Software.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/lucas/Documents/stage/flatsat/Software/OBC_L432KC_Software/OBC_Software/STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="OBC_Software.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: OBC_Software.elf
+ 
+arm-none-eabi-size   OBC_Software.elf 
+arm-none-eabi-objdump -h -S  OBC_Software.elf  > "OBC_Software.list"
+   text	   data	    bss	    dec	    hex	filename
+  28768	    484	   1852	  31104	   7980	OBC_Software.elf
+Finished building: default.size.stdout
+ 
+Finished building: OBC_Software.list
+ 
+
+16:54:19 Build Finished. 0 errors, 2 warnings. (took 1s.81ms)
+

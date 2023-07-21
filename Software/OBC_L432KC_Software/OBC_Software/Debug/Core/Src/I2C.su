@@ -1,0 +1,7 @@
+../Core/Src/I2C.c:13:6:I2C_Init	4	static
+../Core/Src/I2C.c:57:6:I2C_Start	4	static
+../Core/Src/I2C.c:67:6:I2C_Stop	4	static
+../Core/Src/I2C.c:77:8:I2C_Address	16	static
+../Core/Src/I2C.c:116:6:I2C_Write	16	static
+../Core/Src/I2C.c:148:6:I2C_Read	16	static
+../Core/Src/I2C.c:186:6:I2C_Write_Adress	16	static
