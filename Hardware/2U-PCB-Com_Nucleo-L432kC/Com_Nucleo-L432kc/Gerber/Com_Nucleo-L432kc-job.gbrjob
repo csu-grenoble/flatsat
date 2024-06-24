@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.5-7.0.5~ubuntu22.04.1"
+      "Version": "8.0.2-1"
     },
-    "CreationDate": "2023-07-18T09:35:08+02:00"
+    "CreationDate": "2024-06-17T15:41:44+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -33,16 +33,6 @@
     }
   ],
   "FilesAttributes": [
-    {
-      "Path": "Com_Nucleo-L432kc-F_Cu.gbr",
-      "FileFunction": "Copper,L1,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Com_Nucleo-L432kc-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
     {
       "Path": "Com_Nucleo-L432kc-Edge_Cuts.gbr",
       "FileFunction": "Profile",
