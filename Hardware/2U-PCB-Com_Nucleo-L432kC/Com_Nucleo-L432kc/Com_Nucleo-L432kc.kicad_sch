@@ -4678,6 +4678,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -10013,7 +10158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.5352 41.91 0)
 			(effects
 				(font
@@ -10161,7 +10306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 23.8252 40.64 0)
 			(effects
 				(font
@@ -10382,7 +10527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 69.5452 40.64 0)
 			(effects
 				(font
@@ -10527,7 +10672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 58.42 265.303 90)
 			(effects
 				(font
@@ -10747,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.0052 79.375 0)
 			(effects
 				(font
@@ -10964,7 +11109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.055 229.743 90)
 			(effects
 				(font
@@ -11037,7 +11182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.055 217.043 90)
 			(effects
 				(font
@@ -11335,7 +11480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 78.4352 79.375 0)
 			(effects
 				(font
@@ -11478,7 +11623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 105.1052 41.91 0)
 			(effects
 				(font
@@ -11914,7 +12059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.1152 40.64 0)
 			(effects
 				(font
@@ -12107,6 +12252,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 127 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6560b2e2-7a45-48b3-b235-320f2ca65a87")
+		(property "Reference" "SW3"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_SX1303_Reset_Open"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea7822ce-c995-4746-9118-3b0252e9f181")
+		)
+		(pin "1"
+			(uuid "5908196b-b77c-443b-b9ff-ec6f4415911b")
+		)
+		(instances
+			(project "Com_Nucleo-L432kc"
+				(path "/0b43379d-830f-4a2c-bf01-7ac511af3f6d"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 321.31 34.925 0)
 		(unit 1)
@@ -12286,7 +12499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "flatsat_conn:flatsat_conn"
+		(property "Footprint" "Library:flatsat_conn"
 			(at 166.37 30.48 0)
 			(effects
 				(font
@@ -12838,7 +13051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 28.2702 79.375 0)
 			(effects
 				(font
@@ -13094,7 +13307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 39.7002 79.375 0)
 			(effects
 				(font
@@ -13242,7 +13455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 46.6852 40.64 0)
 			(effects
 				(font
@@ -13317,7 +13530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Conn_mikro:MIkrobus_Connector"
+		(property "Footprint" "Library:MIkrobus_Connector"
 			(at 356.235 88.9 0)
 			(effects
 				(font
@@ -13402,7 +13615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 58.42 262.763 90)
 			(effects
 				(font
@@ -13557,7 +13770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 58.42 260.223 90)
 			(effects
 				(font
@@ -13606,79 +13819,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 48.26 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab61e722-2faf-46b4-9d38-6190e822ee0d")
-		(property "Reference" "JP1"
-			(at 48.26 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_RESET_L432KC_Open"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 48.26 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2454e058-17f0-473b-be94-a321f2faf7f1")
-		)
-		(pin "2"
-			(uuid "041d2115-afe8-46fe-9c2d-244ad8d74b98")
-		)
-		(instances
-			(project "Com_Nucleo-L432kc"
-				(path "/0b43379d-830f-4a2c-bf01-7ac511af3f6d"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "Corecell_Nucleo32"
-				(path "/4ae30ec6-0f79-4da8-b14c-df90c5069122"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 36.83 0)
 		(unit 1)
@@ -13706,7 +13846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 35.2552 40.64 0)
 			(effects
 				(font
@@ -13779,7 +13919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_SN74HC04N:N14"
+		(property "Footprint" "Library:N14"
 			(at 244.475 198.755 0)
 			(effects
 				(font
@@ -13955,7 +14095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SO-8_STM"
+		(property "Footprint" "Library:SO-8_STM"
 			(at 217.805 248.92 0)
 			(effects
 				(font
@@ -14042,7 +14182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 58.42 257.683 90)
 			(effects
 				(font
@@ -14306,6 +14446,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c508429b-1fe8-4d6d-8e7a-8755449d1241")
+		(property "Reference" "SW2"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_MCU_Reset_Open"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc04566-1425-4789-b7ef-e1fa2988a2c6")
+		)
+		(pin "1"
+			(uuid "cdb8e82c-ff38-41fb-91bc-d04857f8c96b")
+		)
+		(instances
+			(project "Com_Nucleo-L432kc"
+				(path "/0b43379d-830f-4a2c-bf01-7ac511af3f6d"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 379.095 88.9 0)
 		(mirror y)
@@ -14333,7 +14541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Conn_mikro:MIkrobus_Connector"
+		(property "Footprint" "Library:MIkrobus_Connector"
 			(at 379.095 88.9 0)
 			(effects
 				(font
@@ -14638,7 +14846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 80.9752 40.64 0)
 			(effects
 				(font
@@ -15047,7 +15255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 136.525 206.883 90)
 			(effects
 				(font
@@ -15313,79 +15521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 127 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfa2050d-77d4-4112-86dd-550503fd7c7c")
-		(property "Reference" "JP3"
-			(at 127 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_SX1303_Reset_Open"
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 127 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74ec094d-0401-420d-bbb3-7e77838892bb")
-		)
-		(pin "2"
-			(uuid "4caa28c6-0d0b-44df-bc1c-4d1ec3d12ee6")
-		)
-		(instances
-			(project "Com_Nucleo-L432kc"
-				(path "/0b43379d-830f-4a2c-bf01-7ac511af3f6d"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-			(project "Corecell_Nucleo32"
-				(path "/4ae30ec6-0f79-4da8-b14c-df90c5069122"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 380.365 44.45 0)
 		(unit 1)
@@ -15530,32 +15665,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 85.09 121.92 0)
+		(lib_id "Switch:SW_Push")
+		(at 48.26 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ea4fba73-8499-4660-b7b2-5556698caab1")
-		(property "Reference" "JP2"
-			(at 85.09 115.57 0)
+		(fields_autoplaced yes)
+		(uuid "e9fdc1d3-9476-434e-90eb-a50f6e732846")
+		(property "Reference" "SW1"
+			(at 48.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_MCU_Reset_Open"
-			(at 85.09 118.11 0)
+		(property "Value" "Jumper_RESET_L432KC_Open"
+			(at 48.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 85.09 121.92 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 48.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,7 +15700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 121.92 0)
+			(at 48.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15572,31 +15708,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 85.09 121.92 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 48.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ce63f46d-ae06-4094-9c87-f9afa5c9d580")
 		)
 		(pin "2"
-			(uuid "c6fbd389-30d2-4546-a71d-5de347dfd5d6")
+			(uuid "f7184487-d21d-4493-90c8-14ffb15304a9")
+		)
+		(pin "1"
+			(uuid "6abf9e3a-0b3d-4362-a55a-f23c4733de10")
 		)
 		(instances
 			(project "Com_Nucleo-L432kc"
 				(path "/0b43379d-830f-4a2c-bf01-7ac511af3f6d"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-			(project "Corecell_Nucleo32"
-				(path "/4ae30ec6-0f79-4da8-b14c-df90c5069122"
-					(reference "JP3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -15853,7 +15983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.3602 78.105 0)
 			(effects
 				(font
@@ -15927,7 +16057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_SN74HC04N:N14"
+		(property "Footprint" "Library:N14"
 			(at 310.515 78.74 0)
 			(effects
 				(font
