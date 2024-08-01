@@ -1,4 +1,4 @@
-23363182012810070
+23364942318948658
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6404,6 +6404,13 @@ capacitor tantalum
 0
 2
 2
+Com Nucleo library
+logo_csug
+
+
+0
+0
+0
 Connector
 Banana_Cliff_FCR7350B_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf

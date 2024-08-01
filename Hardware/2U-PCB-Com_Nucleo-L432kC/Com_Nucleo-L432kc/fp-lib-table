@@ -6,4 +6,5 @@
   (lib (name "Conn_mikro")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/Conn_mikro.pretty")(options "")(descr ""))
   (lib (name "ul_SN74HC04N")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/Library/ul_SN74HC04N/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "Logos-image")(type "KiCad")(uri "/home/lucas/Documents/stage/flatsat/Hardware/2U-PCB-TinyGS/Lib & Fp/Logos-image.pretty")(options "")(descr ""))
+  (lib (name "Com Nucleo library")(type "KiCad")(uri "${KIPRJMOD}/footprint library")(options "")(descr ""))
 )
