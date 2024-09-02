@@ -20,5 +20,10 @@ make BOARD=$BOARD flash term
 
 * [conn_can](https://github.com/RIOT-OS/RIOT/tree/master/tests/sys/conn_can)
 
+## LoRa gateway ([RAK5146 SPI + GPS module](https://store.rakwireless.com/products/wislink-concentrator-module-sx1303-rak5146-lorawan?_pos=1&_sid=ff8527039&_ss=r&variant=39667784908998))
+
+* [SX1302/3 driver](https://github.com/thingsat/riot_modules/tree/main/modules/sx1302_2_1_0)
+* [driver test](https://github.com/thingsat/riot_modules/tree/main/tests/driver_sx1302)
+
 ## Utils
-* [AioP13 library : "Another implementation of PLAN-13" library)](https://github.com/thingsat/riot_modules/tree/main/modules/aiop13)
+* [AioP13 library : "Another implementation of PLAN-13" library](https://github.com/thingsat/riot_modules/tree/main/modules/aiop13)
