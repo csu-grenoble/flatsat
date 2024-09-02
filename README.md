@@ -28,6 +28,14 @@ See [TinyGS 2G4 Station](https://github.com/thingsat/tinygs_2g4station)
 
 ![ESP32 Wroom + 2x Mikrobus Slots](./media/inisat+esp32+mikrobusx2.png)
 
+## Board #3 Nucleo L476RG
+
+* 1x [Nucleo L476RG](https://www.st.com/en/evaluation-tools/nucleo-l476rg.html)
+* 1x [ST L9616 Automotive High Speed Can Bus Transceiver](https://www.st.com/en/automotive-analog-and-power/l9616.html)
+
+
+![OBC](media/inisat-l476rg.png)
+
 ## References
 
 * [EasySpace Diffusion](https://github.com/EasySpace-Diffusion)
