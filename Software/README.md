@@ -10,3 +10,7 @@
 ## TinyGS
 
 * See [tinygs_2g4station](https://github.com/thingsat/tinygs_2g4station/tree/main/Firmware)
+
+## References
+
+* https://github.com/EasySpace-Diffusion
