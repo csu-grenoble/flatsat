@@ -17,5 +17,9 @@ Choose  `Tools` > `Board Part Number:` > `Nucleo L432KC`
 
 * [STM32_CAN](https://www.arduino.cc/reference/en/libraries/stm32_can/)
 
+## LoRa gateway ([RAK5146 SPI + GPS module](https://store.rakwireless.com/products/wislink-concentrator-module-sx1303-rak5146-lorawan?_pos=1&_sid=ff8527039&_ss=r&variant=39667784908998))
+
+* [SX1302 driver](https://github.com/will127534/SX1302_Arduino_Library)
+
 ## Utils
 * [AioP13 library : "Another implementation of PLAN-13" library)](https://github.com/dl9sec/AioP13)
