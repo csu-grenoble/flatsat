@@ -13,5 +13,9 @@ Choose  `Tools` > `Board Part Number:` > `Nucleo L432KC`
 * [ADS1015](https://www.ti.com/product/ADS1015) [lib](https://search.arduino.cc/search?q=ADS1015)
 * GNSS [lib](https://search.arduino.cc/search?tab=reference&q=GNSS)
 
+## CAN Bus ([ST L9616 CAN Driver](https://www.st.com/en/automotive-analog-and-power/l9616.html))
+
+* [STM32_CAN](https://www.arduino.cc/reference/en/libraries/stm32_can/)
+
 ## Utils
 * [AioP13 library : "Another implementation of PLAN-13" library)](https://github.com/dl9sec/AioP13)
