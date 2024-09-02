@@ -6,7 +6,7 @@ Choose `Tools` > `Board` > `STM32 Boards (selected from submenu` > `Nucleo 32`
 
 Choose  `Tools` > `Board Part Number:` > `Nucleo L432KC`
 
-## Sensors
+## Sensors (on Sensors board)
 
 * [Bosch Sensortec BNO055](https://www.bosch-sensortec.com/products/smart-sensor-systems/bno055/) [lib](https://search.arduino.cc/search?q=bno055)
 * [NXP MPL3115A2](https://www.nxp.com/docs/en/data-sheet/MPL3115A2.pdf) [lib](https://search.arduino.cc/search?q=MPL3115A2)
