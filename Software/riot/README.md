@@ -2,12 +2,15 @@
 
 [Getting started](https://doc.riot-os.org/getting-started.html)
 
+Clonez le dépôt RIOT (si ce n'est pas déjà fait):
 ```bash
-cd ~/github/RIOT-OS/RIOT
-cd examples/blinky
-BOARD=nucleo-l432kc
-make BOARD=$BOARD flash term
+mkdir -p ~/github/RIOT-OS
+cd  ~/github/RIOT-OS
+git clone https://github.com/RIOT-OS/RIOT.git
+cd RIOT
 ```
+
+[Testez les fonctionnalités de base de RIOT sur la carte Nucleo L432KC](basics.md)
 
 ## Sensors (on Sensors board)
 
