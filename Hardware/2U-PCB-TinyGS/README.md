@@ -10,6 +10,10 @@ The purpose of this board is to control mikrobus modules including SX1280 techno
 
 Mikrobus board is an add-on board socket standard made by [mikroe](https://www.mikroe.com/mikrobus)
 
+![](2u-pcb-tinygs-02.png)
+
+## Pinout
+
 Connection between ESP32 - ESP32-DevKitC V4 and Mikrobus modules
 
 MiKroBus 0:
