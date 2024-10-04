@@ -9,7 +9,7 @@ L'alimentation se fait par le connecteur Inisat qui fournit deux tensions 3.3V e
 Pour la **carte Nucleo**, il y a deux cas distincts:
 
 * Soit la nucleo est connectée à un PC par le cable USB auxquel cas elle est alimentée par le PC
-* Si la nucleo n'est pas branchée en USB alors elle est alimentée par le 5V du connecteur Inisat.
+* Si la nucleo n'est pas branchée en USB alors elle est alimentée par le 3.3V du connecteur Inisat.
 
 
 ### Connecteur Inisat
