@@ -1,4 +1,4 @@
-23366664906881015
+23364977530378359
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6404,14 +6404,35 @@ capacitor tantalum
 0
 2
 2
-Com Nucleo library
+Com_L432KC_footprint
+MIKROE4247
+MIKROE-4247-4
+Connector
+0
+16
+16
+Com_L432KC_footprint
+SON65P200X200X55-6N
+UDFN-6L
+Undefined or Miscellaneous
+0
+6
+6
+Com_L432KC_footprint
+flatsat_conn
+
+
+0
+40
+40
+Com_L432KC_footprint
 logo_csug
 
 
 0
 0
 0
-Com Nucleo library
+Com_L432KC_footprint
 qr_code_flatsat
 
 
@@ -63650,34 +63671,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-MIkrobus_Connector
-
-
-0
-8
-8
-Library
-N14
-
-SN74HC04N 
-0
-14
-14
-Library
-SO-8_STM
-
-L9616 
-0
-8
-8
-Library
-flatsat_conn
-
-
-0
-40
-40
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
