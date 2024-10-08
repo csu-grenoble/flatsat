@@ -1,13 +1,13 @@
 # **Carte Communication INISAT L432KC**
 Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement Inisat grace au header standardisé. 
 
-Cette carte peut acceuillir un module MikroBus, des modules Grove et une gateway LoRa RAK156.
+Cette carte peut accueillir un module MikroBus, des modules Grove et une gateway LoRa RAK156.
 
 Elle peut également être utilisée comme une carte Thingsat.
 
-Voici les deux versions de la cartes:
+Voici les deux versions de la carte:
 
-**Carte com inisat avec connecteur mini-PCI-Express (pour acceuillir un concentrateur LoRa)**
+**Carte com inisat avec connecteur mini-PCI-Express (pour accueillir un concentrateur LoRa)**
 
 ![Carte Com Nucleo RAK](images/Com_Nucleo-L432kc_rak.png)
 
@@ -61,6 +61,14 @@ Le transceiver CAN peut être configuré pour opérations à hautes vitesses (> 
 Pour positionner le transceiver en mode haute vitesse, il faut placer un jumper sur le connecteur JP2.
 
 ![](images/High_speed_CAN.png)
+
+## Capteur de température
+L'adresse i2c du capteur de température est définie comme suit : 0b 0 0 1 1 A2 A1 A0
+
+les bits de poids faibles A2,A1 et A0 sont définis en plaçant des résistances 0 Ohms (_il ne faut donc placer qu'une seule résistance pour chaque bit_): 
+ 
+
+![](images/selection_adresse.png)
 
 
 
