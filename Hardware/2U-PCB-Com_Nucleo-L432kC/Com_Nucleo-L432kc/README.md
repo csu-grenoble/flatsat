@@ -1,26 +1,70 @@
 # **Carte Communication INISAT L432KC**
-Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement Inisat grace au header standardisé. Cette carte peut acceuillir un module MikroBus, des modules Grove et une gateway LoRa RAK156.
+Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement Inisat grace au header standardisé. 
+
+Cette carte peut acceuillir un module MikroBus, des modules Grove et une gateway LoRa RAK156.
+
+Elle peut également être utilisée comme une carte Thingsat.
+
+Voici les deux versions de la cartes:
+
+**Carte com inisat avec connecteur mini-PCI-Express (pour acceuillir un concentrateur LoRa)**
+
+![Carte Com Nucleo RAK](images/Com_Nucleo-L432kc_rak.png)
+
+**Carte com inisat avec connecteur Grove**
+
+![Carte Com Nucleo Grove](images/Com_Nucleo-L432kc_grove.png)
 
 
 ## Description de la carte
-### Alimentation
-L'alimentation se fait par le connecteur Inisat qui fournit deux tensions 3.3V et 5V.
+La carte est equipée de:
 
-Pour la **carte Nucleo**, il y a deux cas distincts:
+ - Un emplacement pour carte **Nucleo-32** (ou arduino nano)
+ - Un emplacement **MikroBus**
+ - Un connecteur **mini-PCI-Express** OU 3 connecteurs **Grove** I2C (en fonction de la version de la carte)
+ - Un connecteur **Inisat** (pour se raccorder aux autres cartes de l'ecosystème Inisat)
+ - Un **transceiver CAN** ([L9616](https://www.st.com/en/automotive-analog-and-power/l9616.html) - STMicroelectronics)
+ - Un **capteur de température** I2C ([MCP9808](https://www.microchip.com/en-us/product/mcp9808#document-table) - Microchip)
 
-* Soit la nucleo est connectée à un PC par le cable USB auxquel cas elle est alimentée par le PC
-* Si la nucleo n'est pas branchée en USB alors elle est alimentée par le 3.3V du connecteur Inisat.
-
-
-### Connecteur Inisat
-
-
-### Emplcament MikroBus
-
-## Liste des circuits intégrés
+## Nucleo 32 (L432KC)
+![pinout nucleo](images/pinout_nucleo.png)
 
 
-## Contributeurs
+## Emplacement MikroBus
+![pinout Mikrobus](images/pinout_mikrobus.png)
+
+## mini PCI Express
+
+![pinout PCI](images/pinout_pci.png)
+
+## Jumpers de selection des signaux
+Les signaux marqués d'une étoile sur les diagrammes sont partagées entre plusieurs empreintes.
+Pour pouvoir utiliser ces signaux il faut donc les "router" vers l'emplacement dont on veut se servir en plaçant correctement les jumpers en bas à droite de la carte.
+
+![Selection jumpers](images/jumpers.png)
+
+- PWM1 : 
+	- position haute: PWM Mikrobus 		(pin 8 de l'empreinte Mikrobus)
+	- position basse: PWM Inisat 		(pin 6 du connecteur Inisat)
+	
+- INT :
+	- position haute: INT Mikrobus 		(pin 7 de l'empreinte Mikrobus)
+	- position basse: PPS Lora core 	(pin 19 du connecteur mini PCI Express)
+	
+- UART (Rx et Tx) :
+	- position haute: UART Mikrobus 	(pin 5 et 6 de l'empreinte Mikrobus)
+	- position basse: UART GPS Lora core (pin 31 et 33 du connecteur mini PCI Express)
+
+	
+## Transceiver CAN
+Le transceiver CAN peut être configuré pour opérations à hautes vitesses (> 250KBaud/s) ou à basse vitesse (< 250KBaud/s).
+Pour positionner le transceiver en mode haute vitesse, il faut placer un jumper sur le connecteur JP2.
+
+![](images/High_speed_CAN.png)
+
+
+
+# Contributeurs
 * **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
 * **Design PCB** Léo CORDIER leo.cordier@univ-grenoble-alpes.fr 
 * **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
