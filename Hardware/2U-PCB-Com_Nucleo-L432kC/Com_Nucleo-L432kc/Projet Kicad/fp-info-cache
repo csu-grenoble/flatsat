@@ -1,4 +1,4 @@
-23364991061684353
+23366720302935365
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6434,6 +6434,13 @@ logo_csug
 0
 Com_L432KC_footprint
 qr_code_flatsat
+
+
+0
+0
+0
+Com_L432KC_footprint
+support mini PCI
 
 
 0
