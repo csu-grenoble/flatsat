@@ -71,6 +71,19 @@ les bits de poids faibles A2,A1 et A0 sont définis en plaçant des résistances
 ![](images/selection_adresse.png)
 
 
+## Modularité de la carte
+Les références marquées d'une étoile sur la sérigraphie ne doivent pas necessairement être montées. Voici les composants concernés:
+
+* Alimentation Nucleo (R6 et R7)
+	* R7: alimentation de la nucleo en 5V
+	* R6: alimentation de la nucleo en 3.3V
+* Alimentation Transceiver CAN (R8 et R9)
+	* R9: alimentation L9616 en 5V
+	* R8: alimentation L9616 en 3.3V
+* Selection adresse i2c capteur de temperature (R10-R15)
+	* [voir ci-dessus](##capteur-de-temperature)
+
+
 
 # Contributeurs
 * **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
