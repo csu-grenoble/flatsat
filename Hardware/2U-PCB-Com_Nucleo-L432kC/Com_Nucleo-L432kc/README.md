@@ -83,7 +83,11 @@ Les références marquées d'une étoile sur la sérigraphie ne doivent pas nece
 * Selection adresse i2c capteur de temperature (R10-R15)
 	* [voir ci-dessus](##capteur-de-temperature)
 
+## Logiciel
 
+### RIOT
+
+* https://github.com/thingsat/riot_modules
 
 # Contributeurs
 * **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
