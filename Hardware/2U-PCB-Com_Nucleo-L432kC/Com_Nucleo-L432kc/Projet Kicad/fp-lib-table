@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Com_L432KC_footprint")(type "KiCad")(uri "${KIPRJMOD}/footprint library")(options "")(descr ""))
+)

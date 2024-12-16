@@ -1,0 +1,227 @@
+(footprint "SON65P200X200X55-6N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "UDFN-6L")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "U**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4691890a-96b1-4564-aae2-85f3d5eee7be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SON65P200X200X55-6N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a1b90a0-6c00-4652-87b9-294fda11dbe6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SON65P200X200X55-6N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95d03a1a-b1d8-4a23-a5a9-4b8f7b98fad0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5363c2ad-827f-4f71-9c04-52d3e3724e1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d187060-0c1a-4006-aa4a-3d06d42bbdc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.375 -1.3)
+		(end -1.375 -1.175)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "336fe2b5-e6a1-4ecc-9f82-d8096c5841ef")
+	)
+	(fp_line
+		(start -1.625 -1.275)
+		(end 1.625 -1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8375f5a4-7645-469a-97ea-ca2b90db9400")
+	)
+	(fp_line
+		(start -1.625 1.275)
+		(end -1.625 -1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6404fc78-888d-4a85-ad4c-2e38470e3a44")
+	)
+	(fp_line
+		(start 1.625 -1.275)
+		(end 1.625 1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea1aa602-5515-4f29-8dc2-3b91db334fe5")
+	)
+	(fp_line
+		(start 1.625 1.275)
+		(end -1.625 1.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b06c543-4426-4894-bbaf-b47ecddca8ca")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80699bec-0757-4d2d-932f-21e9db5ec897")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73f1fad2-9bfa-400b-8afc-2258a23d5a67")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73a7c2ce-fffc-4892-80fc-e8c5a5b5ee84")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26534596-229e-4bce-a4e9-10907db57d13")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce659e30-3b3b-4d18-962b-27d77dc9d19e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ed5f26d8-06af-420c-8dcc-41fdf679e937")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 -0.65 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "15c603d3-7033-4319-b238-f383b8a47a7b")
+	)
+	(pad "2" smd rect
+		(at -0.85 0 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4d4ca5f9-55bf-4405-b720-36ac5aa02115")
+	)
+	(pad "3" smd rect
+		(at -0.85 0.65 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "de969914-8950-465b-9cba-2326e0f504c8")
+	)
+	(pad "4" smd rect
+		(at 0.85 0.65 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fca4731d-b531-493f-b215-1c16186ee526")
+	)
+	(pad "5" smd rect
+		(at 0.85 0 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1ee28a03-8d5e-42dd-8d23-904b4bf3f960")
+	)
+	(pad "6" smd rect
+		(at 0.85 -0.65 90)
+		(size 0.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dae41ab0-fff0-4406-9810-36ccaa051d7d")
+	)
+	(model "${KIPRJMOD}/3D model library/STTS751.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
