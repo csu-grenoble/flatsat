@@ -44,27 +44,26 @@ Pour pouvoir utiliser ces signaux il faut donc les "router" vers l'emplacement d
 ![Selection jumpers](images/jumpers.png)
 
 - PWM1 : 
-	- position haute: PWM Mikrobus 		(pin 8 de l'empreinte Mikrobus)
-	- position basse: PWM Inisat 		(pin 6 du connecteur Inisat)
+	- position haute: `PWM Mikrobus` 		(pin 8 de l'empreinte Mikrobus)
+	- position basse: `PWM Inisat` 		(pin 6 du connecteur Inisat)
 	
 - INT :
-	- position haute: INT Mikrobus 		(pin 7 de l'empreinte Mikrobus)
-	- position basse: PPS Lora core 	(pin 19 du connecteur mini PCI Express)
+	- position haute: `INT Mikrobus` 		(pin 7 de l'empreinte Mikrobus)
+	- position basse: `PPS Lora core` 	(pin 19 du connecteur mini PCI Express)
 	
 - UART (Rx et Tx) :
-	- position haute: UART Mikrobus 	(pin 5 et 6 de l'empreinte Mikrobus)
-	- position basse: UART GPS Lora core (pin 31 et 33 du connecteur mini PCI Express)
+	- position haute: `UART Mikrobus` 	(pin 5 et 6 de l'empreinte Mikrobus)
+	- position basse: `UART GPS Lora core` (pin 31 et 33 du connecteur mini PCI Express)
 
 	
 ## Transceiver CAN
 Le transceiver CAN peut être configuré pour opérations à hautes vitesses (> 250KBaud/s) ou à basse vitesse (< 250KBaud/s).
-Pour positionner le transceiver en mode haute vitesse, il faut placer un jumper sur le connecteur JP2.
+Pour positionner le transceiver en mode haute vitesse, il faut placer un jumper sur le connecteur `JP2`.
 
 ![](images/High_speed_CAN.png)
 
-## Capteur de température
-L'adresse i2c du capteur de température est définie comme suit : 0b 0 0 1 1 A2 A1 A0
-
+## Capteur de temperature
+L'adresse i2c du capteur de température est définie comme suit : `0b 0 0 1 1 A2 A1 A0`
 les bits de poids faibles A2,A1 et A0 sont définis en plaçant des résistances 0 Ohms (_il ne faut donc placer qu'une seule résistance pour chaque bit_): 
  
 
@@ -75,14 +74,13 @@ les bits de poids faibles A2,A1 et A0 sont définis en plaçant des résistances
 Les références marquées d'une étoile sur la sérigraphie ne doivent pas necessairement être montées. Voici les composants concernés:
 
 * Alimentation Nucleo (R6 et R7)
-	* R7: alimentation de la nucleo en 5V
-	* R6: alimentation de la nucleo en 3.3V
+	* `R7`: alimentation de la nucleo en 5V (_nécessaire si la carte Inisat est utilisé seule **ET** que l'on a besoin d'utiliser le 5V pour le Mikrobus_)
+	* `R6`: alimentation de la nucleo en 3.3V (_nécessaire si la carte Inisat est utilisé seule_)
 * Alimentation Transceiver CAN (R8 et R9)
-	* R9: alimentation L9616 en 5V
-	* R8: alimentation L9616 en 3.3V
+	* `R9`: alimentation L9616 en 5V
+	* `R8`: alimentation L9616 en 3.3V (_par défaut_)
 * Selection adresse i2c capteur de temperature (R10-R15)
-	* [voir ci-dessus](##capteur-de-temperature)
-
+	* [voir ci-dessus](#capteur-de-temperature)
 
 
 # Contributeurs
@@ -90,6 +88,3 @@ Les références marquées d'une étoile sur la sérigraphie ne doivent pas nece
 * **Design PCB** Léo CORDIER leo.cordier@univ-grenoble-alpes.fr 
 * **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
 * **Programmation embarquée** Didier Donsez didier.donsez@univ-grenoble-alpes.fr
-
-
-
