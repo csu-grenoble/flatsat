@@ -1,14 +1,13 @@
-# **Carte Communication INISAT L432KC + RAK5146**
+# **Carte Communication INISAT L432KC**
+Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement Inisat grace au header standardisé. 
 
-Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
-
-Cette carte peut accueillir une carte Nucleo L432KC et un [module gateway LoRa RAK5146 SPI](https://store.rakwireless.com/products/wislink-concentrator-module-sx1303-rak5146-lorawan?srsltid=AfmBOooOuE2AZiDZI89s418hoP56CNO0MbZCl3zJxvqXq2facx5QHo48&variant=39667784908998), un module MikroBus, des platines Grove (quand le module gateway LoRa RAK5146 n'est pas monté).
+Cette carte peut accueillir un module MikroBus, des modules Grove et une gateway LoRa RAK156.
 
 Elle peut également être utilisée comme une carte Thingsat.
 
 Voici les deux versions de la carte:
 
-**Carte com inisat avec connecteur mini-PCI-Express (pour accueillir un concentrateur LoRa RAK5146)**
+**Carte com inisat avec connecteur mini-PCI-Express (pour accueillir un concentrateur LoRa)**
 
 ![Carte Com Nucleo RAK](images/Com_Nucleo-L432kc_rak.png)
 
@@ -29,6 +28,7 @@ La carte est equipée de:
 
 ## Nucleo 32 (L432KC)
 ![pinout nucleo](images/pinout_nucleo.png)
+
 
 ## Emplacement MikroBus
 ![pinout Mikrobus](images/pinout_mikrobus.png)
@@ -71,22 +71,17 @@ les bits de poids faibles A2,A1 et A0 sont définis en plaçant des résistances
 
 
 ## Modularité de la carte
-Les références marquées d'une étoile sur la sérigraphie ne doivent pas necessairement être montées. Voici les composants concernés:
+Les composants entourés d'un rectangle en pointillé ne doivent pas necessairement être montées. Cela dépend de l'usage de la carte. Voici les composants concernés:
 
-* Alimentation Nucleo (R6 et R7)
+* Alimentation Nucleo
 	* `R7`: alimentation de la nucleo en 5V (_nécessaire si la carte Inisat est utilisé seule **ET** que l'on a besoin d'utiliser le 5V pour le Mikrobus_)
 	* `R6`: alimentation de la nucleo en 3.3V (_nécessaire si la carte Inisat est utilisé seule_)
-* Alimentation Transceiver CAN (R8 et R9)
+* Alimentation Transceiver CAN
 	* `R9`: alimentation L9616 en 5V
 	* `R8`: alimentation L9616 en 3.3V (_par défaut_)
-* Selection adresse i2c capteur de temperature (R10-R15)
-
+* Selection adresse i2c capteur de temperature (`R10`-`R15`)
 	* [voir ci-dessus](#capteur-de-temperature)
-## Logiciel
 
-### RIOT
-
-* https://github.com/thingsat/riot_modules
 
 # Contributeurs
 * **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
