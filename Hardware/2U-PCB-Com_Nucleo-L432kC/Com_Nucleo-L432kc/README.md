@@ -1,13 +1,14 @@
-# **Carte Communication INISAT L432KC**
-Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement Inisat grace au header standardisé. 
+# **Carte Communication INISAT L432KC + RAK5146**
 
-Cette carte peut accueillir un module MikroBus, des modules Grove et une gateway LoRa RAK156.
+Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
+
+Cette carte peut accueillir une carte Nucleo L432KC et un [module gateway LoRa RAK5146 SPI](https://store.rakwireless.com/products/wislink-concentrator-module-sx1303-rak5146-lorawan?srsltid=AfmBOooOuE2AZiDZI89s418hoP56CNO0MbZCl3zJxvqXq2facx5QHo48&variant=39667784908998), un module MikroBus, des platines Grove (quand le module gateway LoRa RAK5146 n'est pas monté).
 
 Elle peut également être utilisée comme une carte Thingsat.
 
 Voici les deux versions de la carte:
 
-**Carte com inisat avec connecteur mini-PCI-Express (pour accueillir un concentrateur LoRa)**
+**Carte com inisat avec connecteur mini-PCI-Express (pour accueillir un concentrateur LoRa RAK5146)**
 
 ![Carte Com Nucleo RAK](images/Com_Nucleo-L432kc_rak.png)
 
@@ -28,7 +29,6 @@ La carte est equipée de:
 
 ## Nucleo 32 (L432KC)
 ![pinout nucleo](images/pinout_nucleo.png)
-
 
 ## Emplacement MikroBus
 ![pinout Mikrobus](images/pinout_mikrobus.png)
@@ -80,8 +80,13 @@ Les références marquées d'une étoile sur la sérigraphie ne doivent pas nece
 	* `R9`: alimentation L9616 en 5V
 	* `R8`: alimentation L9616 en 3.3V (_par défaut_)
 * Selection adresse i2c capteur de temperature (R10-R15)
-	* [voir ci-dessus](#capteur-de-temperature)
 
+	* [voir ci-dessus](#capteur-de-temperature)
+## Logiciel
+
+### RIOT
+
+* https://github.com/thingsat/riot_modules
 
 # Contributeurs
 * **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
