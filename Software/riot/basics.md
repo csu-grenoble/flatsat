@@ -1,39 +1,8 @@
-# Premiers pas avec la carte Nucleo L432KC
+# Premiers pas avec la carte INISAT Nucleo L432KC + RAK 5146
 
 Dans ce chapitre, vous apprendrez à utiliser les fonctions de base offertes par RIOT pour la plupart des MCU STM32.
 
-Clonez le dépôt RIOT (si ce n'est pas déjà fait):
-```bash
-mkdir -p ~/github/RIOT-OS
-cd  ~/github/RIOT-OS
-git clone https://github.com/RIOT-OS/RIOT.git
-cd RIOT
-```
-
-
-Configurez la carte cible pour `make`
-```bash
-export BOARD=nucleo-l432kc
-```
-
-Recherchez le  `tty` de la console et connectez-vous à celle-ci avec `tio`.
-
-Sur Linux
-```bash
-lsusb
-tio
-tio -b 115200 -m INLCRNL /dev/ttyUSB0
-```
-
-Sur MacOS
-```bash
-lsusb
-tio
-tio -L
-tio -b 115200 -m INLCRNL /dev/tty.usbmodem-XXXX
-```
-
-> Pour mémoire, si vous utilisez Linux dans une machine virtuelle VirtualBox, il faut monter les 2 périphériques USBSerial et STLink dans le menu Péripériques de la machine virtuelle.
+[Installation et configuration](install.md)
 
 ## LED
 Construisez le firmware avec la commande suivante:
@@ -41,7 +10,6 @@ Construisez le firmware avec la commande suivante:
 cd ~/github/RIOT-OS/RIOT/tests/leds
 make -j 4
 ```
-
 
 ## Shell
 
@@ -127,7 +95,7 @@ Lowest allowed mode: 2
 > app_metadata
 {"cmd": "app_metadata_print_json()"}
 {"data": {"APP_NAME": "test-shell"}}
-{"data": {"BOARD": "nucleo-l432kc"}}
+{"data": {"BOARD": "nucleo-l432kc-init"}}
 {"data": {"CPU": "stm32"}}
 {"data": {"APP_SHELL_FMT": "NONE"}}
 {"data": {"MCU": "stm32"}}
@@ -526,7 +494,7 @@ DISABLE_MODULE += periph_init_rtc
 Reflashez la carte avec les commandes suivantes :
 
 ```bash
-cd ~/github/RIOT-OS/RIOT/tests/shell
+cd ~/github/RIOT-OS/RIOT/tests/sys/shell
 make -j 4 flash
 ```
 
