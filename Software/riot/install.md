@@ -1,5 +1,7 @@
 # Premiers pas avec la carte INISAT Nucleo L432KC + RAK 5146
 
+[Getting started](https://doc.riot-os.org/getting-started.html)
+
 Clonez les dépôts (si ce n'est pas déjà fait):
 ```bash
 mkdir -p ~/github/RIOT-OS

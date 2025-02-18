@@ -658,4 +658,3 @@ make -j 4 flash
 * True random number generator
 * [STM32 last reset status](../tests/last_reset_status/)
 * [STM32 internal temperature](../tests/internal_temperature/)
-
