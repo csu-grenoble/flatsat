@@ -1,4 +1,6 @@
-# Premiers pas avec la carte INISAT Nucleo L432KC + RAK 5146
+# INISAT Nucleo L432KC + RAK 5146 :: Sensors
+
+[Installation et configuration](install.md)
 
 
 ## I2C Scan
