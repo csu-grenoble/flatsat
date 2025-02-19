@@ -1,12 +1,12 @@
-# **Carte OBC + Communication INISAT 📡 🚀 L432KC + RAK5146**
+# **Carte Thingsat @ INISAT 📡 🚀 : OBC + Communication avec Nucleo L432KC + Gateway RAK5146**
 
-Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
+La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
 
 Cette carte peut accueillir un module MikroBus, trois modules Grove et une gateway LoRa RAK156 (+ GNSS).
 
 Le firmware sur RIOT OS est disponible [ici](../../Software/riot).
 
-Dotée du module gateway LoRa RAK156, elle peut également être utilisée comme la carte Thingsat.
+Dotée du module gateway LoRa RAK156, elle peut également être utilisée comme la carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT.
 
 La carte peut être montée en deux versions:
 
@@ -17,7 +17,6 @@ La carte peut être montée en deux versions:
 **Carte avec 3 connecteurs Grove et 1 support Mikrobus**
 
 ![Carte Com Nucleo Grove](images/Com_Nucleo-L432kc_grove.png)
-
 
 ## Description de la carte
 La carte est equipée de:
