@@ -1,4 +1,4 @@
-# **Carte OBC + Communication INISAT 📡 🚀 L432KC + RAK5146 **
+# **Carte OBC + Communication INISAT 📡 🚀 L432KC + RAK5146**
 
 Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
 
