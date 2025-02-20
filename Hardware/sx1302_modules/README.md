@@ -1,5 +1,4 @@
-# SX1302 / SX1303 Gateway Modules
-
+# SX1302 / SX1303 Gateway Modules for [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC)
 
 ## RAK5146 Gateway Concentrator Module for LoRaWAN SPI
 
@@ -31,37 +30,6 @@
 
 ![](images/rak5166-pinout.png)
 
-## Seeedstudio WM1303
-
-* Manufacturer: [Seeedstudio]()
-* Interface: mini-PCIe
-* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
-* Temperature: NA
-* GNSS: NA
-* PPS: NA
-* LBT: NA
-* Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
-
-![](images/wm1303-pinout.png)
-
-## Seeedstudio WM1302
-
-* Manufacturer: [Seeedstudio]()
-* Interface: mini-PCIe
-* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
-* Temperature: NA
-* GNSS: NA
-* PPS: NA
-* LBT: NA
-* Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
-
-![](images/wm1302-pinout.jpg)
-
-https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
-
-
 ## Nebra NBR-0094
 
 * Manufacturer: [Nebra](https://support.nebra.com/support/solutions/articles/24000078841-nebra-sx1302-3-concentrator-module)
@@ -75,6 +43,35 @@ https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
 * Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Yes
 
 ![](images/nbr0094-pinout.jpg)
+
+## Seeedstudio Wio-WM1302 Long Range Gateway Module
+
+* Manufacturer: [Seeedstudio](https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
+)
+* Interface: mini-PCIe
+* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
+* Temperature: NA
+* GNSS: NA
+* PPS: NA
+* LBT: NA
+* Regions: EU868
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Probably
+
+![](images/wm1302-pinout.jpg)
+
+## Seeedstudio Wio-WM1303 Long Range Gateway Module
+
+* Manufacturer: [Seeedstudio](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
+* Interface: mini-PCIe
+* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
+* Temperature: NA
+* GNSS: NA
+* PPS: NA
+* LBT: NA
+* Regions: EU868
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Probably
+* Remark: only available into [Seeedstudio SenseCAP M1 Helium Miner](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
+
 
 ## Heltec HT1303
 
