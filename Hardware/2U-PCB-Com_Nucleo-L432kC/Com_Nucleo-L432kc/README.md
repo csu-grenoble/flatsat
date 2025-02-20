@@ -4,6 +4,8 @@ La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public
 
 Cette carte peut accueillir un module MikroBus, trois modules Grove et une gateway LoRa RAK156 (+ GNSS).
 
+> Remarque: D'autres modules gateways LoRa sont compatibles avec la carte. Voir la [liste](../../sx1302_modules).
+
 Le firmware sur RIOT OS est disponible [ici](../../Software/riot).
 
 Dotée du module gateway LoRa RAK156, elle peut également être utilisée comme la carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT.
