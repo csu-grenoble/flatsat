@@ -1,20 +1,22 @@
-# **Carte Communication INISAT L432KC**
-Cette carte a pour but de fonctionner comme un OBC qui peut se relier à l'environnement Inisat grace au header standardisé. 
+# **Carte Thingsat @ INISAT 📡 🚀 : OBC + Communication avec Nucleo L432KC + Gateway RAK5146**
 
-Cette carte peut accueillir un module MikroBus, des modules Grove et une gateway LoRa RAK156.
+La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
 
-Elle peut également être utilisée comme une carte Thingsat.
+Cette carte peut accueillir un module MikroBus, trois modules Grove et une gateway LoRa RAK156 (+ GNSS).
 
-Voici les deux versions de la carte:
+Le firmware sur RIOT OS est disponible [ici](../../Software/riot).
 
-**Carte com inisat avec connecteur mini-PCI-Express (pour accueillir un concentrateur LoRa)**
+Dotée du module gateway LoRa RAK156, elle peut également être utilisée comme la carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT.
+
+La carte peut être montée en deux versions:
+
+**Carte avec 1 connecteur mini-PCI-Express (pour accueillir un concentrateur LoRa) et 1 support Mikrobus**
 
 ![Carte Com Nucleo RAK](images/Com_Nucleo-L432kc_rak.png)
 
-**Carte com inisat avec connecteur Grove**
+**Carte avec 3 connecteurs Grove et 1 support Mikrobus**
 
 ![Carte Com Nucleo Grove](images/Com_Nucleo-L432kc_grove.png)
-
 
 ## Description de la carte
 La carte est equipée de:
@@ -28,7 +30,6 @@ La carte est equipée de:
 
 ## Nucleo 32 (L432KC)
 ![pinout nucleo](images/pinout_nucleo.png)
-
 
 ## Emplacement MikroBus
 ![pinout Mikrobus](images/pinout_mikrobus.png)
@@ -84,7 +85,7 @@ Les composants entourés d'un rectangle en pointillé ne doivent pas necessairem
 
 
 # Contributeurs
-* **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
-* **Design PCB** Léo CORDIER leo.cordier@univ-grenoble-alpes.fr 
-* **Design PCB** Vincent Grennerat Vincent.Grennerat@univ-grenoble-alpes.fr
-* **Programmation embarquée** Didier Donsez didier.donsez@univ-grenoble-alpes.fr
+
+* Léo CORDIER (Design PCB + montage)
+* Vincent Grennerat (Design PCB)
+* Didier Donsez (firmware de test)
