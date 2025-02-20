@@ -1,21 +1,6 @@
 # SX1302 / SX1303 Gateway Modules
 
 
-##  Semtech SX1302C868GW1 Corecell Devkit
-
-* Manufacturer: [Semtech](https://www.semtech.fr/products/wireless-rf/lora-core/sx1302cssxxxgw1)
-* Interface: mini-PCIe
-* Bus: SPI
-* Chip: SX1302 + 2x SX1250
-* Temperature: Yes (STTS751)
-* GNSS: No (but slot available on connection board)
-* PPS: No (but slot available on connection board)
-* Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
-
-![](images/sx1302cssxxxgw1-pinout.jpg)
-
-
 ## RAK5146 Gateway Concentrator Module for LoRaWAN SPI
 
 * Manufacturer: [RAK Wireless](https://store.rakwireless.com/products/wislink-concentrator-module-sx1303-rak5146-lorawan?srsltid=AfmBOorAl43FJtvq0f6k6GQTX6-MeB1SWc8eSZecXvENYsJIkCYQmvOO&variant=39667784908998)
@@ -87,10 +72,37 @@ https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
 * PPS: No
 * LBT: No
 * Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Yes
 
 ![](images/nbr0094-pinout.jpg)
 
+## Heltec HT1303
 
-## Others
-* [Heltec HT1303 (SX1303 + SX1250)](https://fr.aliexpress.com/item/1005005491946799.html)
+* Manufacturer: [heltec](https://heltec.org/project/ht1303/)
+* Interface: mini-PCIe
+* Bus: SPI (or USB))
+* Chip: SX1302 + 2x SX1250
+* Temperature: Unknown
+* GNSS: No
+* PPS: No
+* LBT: No
+* Regions: EU868
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Probably
+
+![](images/ht1303-pinout.jpg)
+
+##  Semtech SX1302C868GW1 Corecell Devkit
+
+* Manufacturer: [Semtech](https://www.semtech.fr/products/wireless-rf/lora-core/sx1302cssxxxgw1)
+* Interface: mini-PCIe
+* Bus: SPI
+* Chip: SX1302 + 2x SX1250
+* Temperature: Yes (STTS751)
+* GNSS: No (but slot available on connection board)
+* PPS: No (but slot available on connection board)
+* Regions: EU868
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : No
+
+![](images/sx1302cssxxxgw1-pinout.jpg)
+
+
