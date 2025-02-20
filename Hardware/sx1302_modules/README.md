@@ -11,7 +11,7 @@
 * GNSS: No (but slot available on connection board)
 * PPS: No (but slot available on connection board)
 * Regions: EU868
-* Compliance with [../2U-PCB-Com_Nucleo-L432KC] : Unknown
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
 
 ![](images/sx1302cssxxxgw1-pinout.png)
 
@@ -27,7 +27,7 @@
 * PPS: Yes
 * LBT: Yes (for USB)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
-* Compliance with [../2U-PCB-Com_Nucleo-L432KC] : Yes
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Yes
 
 ![](images/rak5146-pinout.png)
 
@@ -42,7 +42,7 @@
 * PPS: Yes
 * LBT: Yes
 * Regions: EU868
-* Compliance with [../2U-PCB-Com_Nucleo-L432KC] : Yes
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : No
 
 ![](images/rak5166-pinout.png)
 
@@ -56,7 +56,7 @@
 * PPS: NA
 * LBT: NA
 * Regions: EU868
-* Compliance with [../2U-PCB-Com_Nucleo-L432KC] : Unknown
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
 
 ![](images/wm1303-pinout.png)
 
@@ -70,7 +70,7 @@
 * PPS: NA
 * LBT: NA
 * Regions: EU868
-* Compliance with [../2U-PCB-Com_Nucleo-L432KC] : Unknown
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
 
 ![](images/wm1302-pinout.jpg)
 
@@ -87,6 +87,6 @@ https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
 * PPS: No
 * LBT: No
 * Regions: EU868
-* Compliance with [../2U-PCB-Com_Nucleo-L432KC] : Unknown
+* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
 
 ![](images/nbr0094-pinout.jpg)
