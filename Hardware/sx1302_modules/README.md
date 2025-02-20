@@ -13,7 +13,7 @@
 * Regions: EU868
 * Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
 
-![](images/sx1302cssxxxgw1-pinout.png)
+![](images/sx1302cssxxxgw1-pinout.jpg)
 
 
 ## RAK5146 Gateway Concentrator Module for LoRaWAN SPI
@@ -90,3 +90,7 @@ https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
 * Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Unknown
 
 ![](images/nbr0094-pinout.jpg)
+
+
+## Others
+* [Heltec HT1303 (SX1303 + SX1250)](https://fr.aliexpress.com/item/1005005491946799.html)
