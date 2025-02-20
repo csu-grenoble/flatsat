@@ -15,6 +15,20 @@
 
 ![](images/rak5146-pinout.png)
 
+## RAK2287 WisLink LPWAN Concentrator SPI
+
+* Manufacturer: [RAK Wireless](https://docs.rakwireless.com/Product-Categories/WisLink/RAK2287/Overview/#product-description)
+* Interface: mini-PCIe
+* Bus: [SPI](https://store.rakwireless.com/products/wislink-concentrator-module-sx1302-rak2287-lorawan?variant=39660564283590) (exists with USB)
+* Chip: SX1302 + 2x SX1250
+* Temperature: No
+* GNSS: Yes UBlox ZOE-M8Q (UART)
+* PPS: Probably
+* LBT: No (requires SX126x)
+* Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
+
+
 ## RAK5166 WisLink LPWAN Concentrator SPI
 
 * Manufacturer: [RAK Wireless](https://docs.rakwireless.com/product-categories/wislink/rak5166/overview)
