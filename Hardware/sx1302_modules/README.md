@@ -1,4 +1,4 @@
-# SX1302 / SX1303 Gateway Modules for [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC)
+# SX1302 / SX1303 Gateway Modules for [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc)
 
 ## RAK5146 Gateway Concentrator Module for LoRaWAN SPI
 
@@ -11,7 +11,7 @@
 * PPS: Yes
 * LBT: Yes (for USB)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Yes
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Yes
 
 ![](images/rak5146-pinout.png)
 
@@ -26,7 +26,7 @@
 * PPS: Yes
 * LBT: Yes
 * Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : No
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : No
 
 ![](images/rak5166-pinout.png)
 
@@ -40,7 +40,7 @@
 * PPS: No
 * LBT: No
 * Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Yes
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Yes
 
 ![](images/nbr0094-pinout.jpg)
 
@@ -55,7 +55,7 @@
 * PPS: NA
 * LBT: NA
 * Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Probably
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
 
 ![](images/wm1302-pinout.jpg)
 
@@ -69,7 +69,7 @@
 * PPS: NA
 * LBT: NA
 * Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Probably
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
 * Remark: only available into [Seeedstudio SenseCAP M1 Helium Miner](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
 
 
@@ -84,7 +84,7 @@
 * PPS: No
 * LBT: No
 * Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : Probably
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
 
 ![](images/ht1303-pinout.jpg)
 
@@ -98,7 +98,7 @@
 * GNSS: No (but slot available on connection board)
 * PPS: No (but slot available on connection board)
 * Regions: EU868
-* Compliance with [2U-PCB-Com_Nucleo-L432KC](../2U-PCB-Com_Nucleo-L432KC) : No
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : No
 
 ![](images/sx1302cssxxxgw1-pinout.jpg)
 
