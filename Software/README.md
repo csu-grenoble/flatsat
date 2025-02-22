@@ -1,6 +1,6 @@
 # Firmwares for INISAT boards
 
-## Nucleo L432KC with RAK5146 LoRa gateway
+## # ThingSat @ INISAT 📡 🚀 (Nucleo L432KC + RAK 5146)
 
 * [Arduino](./arduino)
 * [MBed](./mbed)
