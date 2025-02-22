@@ -1,4 +1,4 @@
-# SX1302 / SX1303 Gateway Modules for [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc)
+# SX1302 / SX1303 Gateway Modules for [Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc)
 
 ## RAK5146 Gateway Concentrator Module for LoRaWAN SPI
 
