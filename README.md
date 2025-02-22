@@ -15,7 +15,7 @@ Extensions to [Easy Space](https://www.easy-space.fr/) INISAT flatsat mockup
 * 3x [Groove connectors](https://wiki.seeedstudio.com/Grove_System/)
 * 1x [ST L9616 Automotive High Speed Can Bus Transceiver](https://www.st.com/en/automotive-analog-and-power/l9616.html)
   
-![OBC + RAK5146 board for INISAT](./media/inisat-l432kc+rak5146+lambda80-01.jpg)
+![OBC + RAK5146 board for INISAT](Hardware/Thingsat_INISAT/images/inisat-l432kc+rak5146+lambda80-01.jpg)
 
 ## Board #2 ESP32 TinyGS
 

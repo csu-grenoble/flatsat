@@ -2,13 +2,23 @@
 
 La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
 
-Cette carte peut accueillir un module MikroBus, trois modules Grove et une gateway LoRa RAK156 (+ GNSS).
+Cette carte fonctionne également comme une carte de communication avancée LoRa/FSK avec l'ajout d'un module [gateway LoRa (+ GNSS) au format mini-PCIe](https://www.mikroe.com/mikrobus) comme le module [RAK5146](../../sx1302_modules).
 
-> Remarque: D'autres modules gateways LoRa sont compatibles avec la carte. Voir la [liste](../../sx1302_modules).
+> Remarque: D'autres modules gateways LoRa avec ou sans module GNSS sont compatibles avec la carte. Voir la [liste](../../sx1302_modules).
 
-Le firmware sur RIOT OS est disponible [ici](../../Software/riot).
+Cette carte peut accueillir un module MikroBus qui peut accueillir des platines de l'[écosystème Mikrobus](https://www.mikroe.com/mikrobus).
 
-Dotée du module gateway LoRa RAK156, elle peut également être utilisée comme la carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT.
+Cette carte peut accueillir trois platines Grove I2C/UART situés sous le module mini-PCIe.
+
+La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT peut être utilisée seule (standalone) pour des expérimentations à bord de [ballons stratosphériques](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/balloons/README.md).
+
+## Firmware
+
+Le firmware avec RIOT OS est disponible [ici](../../Software/riot).
+
+Le firmware avec [ici](../../Software/arduino) est à l'étude.
+
+## Montages
 
 La carte peut être montée en deux versions:
 
@@ -19,6 +29,19 @@ La carte peut être montée en deux versions:
 **Carte avec 3 connecteurs Grove et 1 support Mikrobus**
 
 ![Carte Com Nucleo Grove](images/Com_Nucleo-L432kc_grove.png)
+
+## OpenLog
+
+Pour journaliser la console d'exécution du firmware de la carte Nucleo L432KC, vous pouvez ajouter une [platine OpenLog](https://github.com/CampusIoT/tutorial/tree/master/openlogger) sur les headers externes de la carte.
+
+| OpenLogger | Nucleo L432KC |
+| ---------- | ------------- |
+| `3V3` | `3V3` |
+| `GND` | `GND` |
+| `RXI` | `A7` (aka `UART2_TX`) | 
+
+> NB: il est recommandé que le port console soit configuré à 9600 bauds pour éviter la perte de caratères lors de l'écriture sur la carte SD. Pour les firmwares avec RIOT OS, il faut redéfinir dans le Makefile `STDIO_UART_BAUDRATE` avec `CFLAGS += -DSTDIO_UART_BAUDRATE=9600`
+
 
 ## Description de la carte
 La carte est equipée de:
@@ -31,16 +54,19 @@ La carte est equipée de:
  - Un **capteur de température** I2C ([MCP9808](https://www.microchip.com/en-us/product/mcp9808#document-table) - Microchip)
 
 ## Nucleo 32 (L432KC)
+
 ![pinout nucleo](images/pinout_nucleo.png)
 
 ## Emplacement MikroBus
+
 ![pinout Mikrobus](images/pinout_mikrobus.png)
 
-## mini PCI Express
+## Connecteur mini PCI Express
 
 ![pinout PCI](images/pinout_pci.png)
 
 ## Jumpers de selection des signaux
+
 Les signaux marqués d'une étoile sur les diagrammes sont partagées entre plusieurs empreintes.
 Pour pouvoir utiliser ces signaux il faut donc les "router" vers l'emplacement dont on veut se servir en plaçant correctement les jumpers en bas à droite de la carte.
 
@@ -65,15 +91,15 @@ Pour positionner le transceiver en mode haute vitesse, il faut placer un jumper 
 
 ![](images/High_speed_CAN.png)
 
-## Capteur de temperature
+## Capteur de temperature [MPC9808](https://www.microchip.com/en-us/product/mcp9808#document-table)
+
 L'adresse i2c du capteur de température est définie comme suit : `0b 0 0 1 1 A2 A1 A0`
 les bits de poids faibles A2,A1 et A0 sont définis en plaçant des résistances 0 Ohms (_il ne faut donc placer qu'une seule résistance pour chaque bit_): 
  
-
 ![](images/selection_adresse.png)
 
-
 ## Modularité de la carte
+
 Les composants entourés d'un rectangle en pointillé ne doivent pas necessairement être montées. Cela dépend de l'usage de la carte. Voici les composants concernés:
 
 * Alimentation Nucleo
