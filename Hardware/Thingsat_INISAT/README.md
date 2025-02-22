@@ -12,6 +12,8 @@ Cette carte peut accueillir trois platines Grove I2C/UART situés sous le module
 
 La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT peut être utilisée seule (standalone) pour des expérimentations à bord de [ballons stratosphériques](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/balloons/README.md).
 
+![](images/inisat-l432kc+rak5146+lambda80-01.jpg)
+
 ## Firmware
 
 Le firmware avec RIOT OS est disponible [ici](../../Software/riot).
@@ -41,7 +43,6 @@ Pour journaliser la console d'exécution du firmware de la carte Nucleo L432KC, 
 | `RXI` | `A7` (aka `UART2_TX`) | 
 
 > NB: il est recommandé que le port console soit configuré à 9600 bauds pour éviter la perte de caratères lors de l'écriture sur la carte SD. Pour les firmwares avec RIOT OS, il faut redéfinir dans le Makefile `STDIO_UART_BAUDRATE` avec `CFLAGS += -DSTDIO_UART_BAUDRATE=9600`
-
 
 ## Description de la carte
 La carte est equipée de:
@@ -110,7 +111,6 @@ Les composants entourés d'un rectangle en pointillé ne doivent pas necessairem
 	* `R8`: alimentation L9616 en 3.3V (_par défaut_)
 * Selection adresse i2c capteur de temperature (`R10`-`R15`)
 	* [voir ci-dessus](#capteur-de-temperature)
-
 
 # Contributeurs
 

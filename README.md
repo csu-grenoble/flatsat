@@ -1,4 +1,4 @@
-# Easy-Space Flatsat extensions
+# Easy-Space Flatsat  📡 🚀 extensions
 
 ![logo](./media/Logo-EASY-SPACE-Diffusion-blanc-1.png)
 
@@ -7,7 +7,7 @@ Extensions to [Easy Space](https://www.easy-space.fr/) INISAT flatsat mockup
 ![mockup](./media/flatsat.png)
 ![cubesat 2U](./media/inisat-02.jpg)
 
-## Board #1 OBC + LoRa Gateway + CAN Bus
+## Board #1: ThingSat @ INISAT  📡 🚀 (OBC + LoRa Gateway + CAN Bus)
 
 * 1x [ST Nucleo L432KC](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)
 * 1x [RAK Wireless RAK5146 (all bands)](https://store.rakwireless.com/products/wislink-concentrator-module-sx1303-rak5146-lorawan?_pos=1&_sid=c9dc2f56d&_ss=r&variant=39667784908998)
