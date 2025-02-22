@@ -26,7 +26,7 @@
 * PPS: Probably
 * LBT: No (requires SX126x)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
+* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably since same pinout as RAK5146.
 
 
 ## RAK5166 WisLink LPWAN Concentrator SPI
