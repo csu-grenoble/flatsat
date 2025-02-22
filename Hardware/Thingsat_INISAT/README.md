@@ -14,6 +14,11 @@ La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public
 
 ![](images/inisat-l432kc+rak5146+lambda80-01.jpg)
 
+
+## Schématique
+
+[Schematic](schematic.pdf)
+
 ## Firmware
 
 Le firmware avec RIOT OS est disponible [ici](../../Software/riot).
