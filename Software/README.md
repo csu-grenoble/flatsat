@@ -1,6 +1,6 @@
-# Firmwares for INISAT boards
+# Firmwares for INISAT 📡 🚀 boards
 
-## # ThingSat @ INISAT 📡 🚀 (Nucleo L432KC + RAK 5146)
+## ThingSat @ INISAT 📡 🚀 (Nucleo L432KC + RAK 5146)
 
 * [Arduino](./arduino)
 * [MBed](./mbed)
