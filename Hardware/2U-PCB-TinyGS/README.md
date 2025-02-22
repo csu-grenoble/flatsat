@@ -1,6 +1,6 @@
-# Main Board for TinyGS 2.4GHz Station
+# INISAT Board for TinyGS 2.4GHz Station
 
-This board is the firts version of the 2.4GHz gateway for [TinyGS](https://tinygs.com/).
+This board is the firts version of the [LoRa 2.4GHz gateway](https://github.com/thingsat/tinygs_2g4station) for [TinyGS](https://tinygs.com/).
 
 Contain Schematic and PCB file for ESP32 Vroom + 2 Mikrobus modules + 2 groves connectors (RXTX,I2C).
 
@@ -94,9 +94,8 @@ Lib & empreinte folder contains all necessary symbol and footprint for the proje
 * Grove connector for I2C and RxTx connection
 * SMA and UFL connector
 
-
-
 ## Files
+
 * .pro: File containing the parameters of the project.
 * .sch: Schema files.
 * .kicad_pcb: Printed circuit board files.
@@ -104,3 +103,8 @@ Lib & empreinte folder contains all necessary symbol and footprint for the proje
 * fp-lib-table: Library list file (footprint library table): declaration of component footprint libraries available for the PCB editor.
 
 
+## Contributors
+
+* Didier DONSEZ
+* [Samuel Barnola](https://www.linkedin.com/in/samuel-barnola-816354281/) ([initial design](https://github.com/thingsat/tinygs_2g4station))
+* [Lucas ORLANDO BERNARDES](https://www.linkedin.com/in/lucas-orlando-bernardes-1b7397256/)

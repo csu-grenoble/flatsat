@@ -36,9 +36,9 @@ La carte peut être montée en deux versions:
 
 Pour journaliser la console d'exécution du firmware de la carte Nucleo L432KC, vous pouvez ajouter une [platine OpenLog](https://github.com/CampusIoT/tutorial/tree/master/openlogger) sur les headers externes de la carte.
 
-| OpenLogger | Nucleo L432KC |
-| ---------- | ------------- |
-| `3V3` | `3V3` |
+| OpenLog | Nucleo L432KC |
+| ------- | ------------- |
+| `3V3` | `3V3` (et non `VIN`) |
 | `GND` | `GND` |
 | `RXI` | `A7` (aka `UART2_TX`) | 
 
@@ -74,11 +74,11 @@ Pour pouvoir utiliser ces signaux il faut donc les "router" vers l'emplacement d
 ![Selection jumpers](images/jumpers.png)
 
 - PWM1 : 
-	- position haute: `PWM Mikrobus` 		(pin 8 de l'empreinte Mikrobus)
+	- position haute: `PWM Mikrobus` 	(pin 8 de l'empreinte Mikrobus)
 	- position basse: `PWM Inisat` 		(pin 6 du connecteur Inisat)
 	
 - INT :
-	- position haute: `INT Mikrobus` 		(pin 7 de l'empreinte Mikrobus)
+	- position haute: `INT Mikrobus` 	(pin 7 de l'empreinte Mikrobus)
 	- position basse: `PPS Lora core` 	(pin 19 du connecteur mini PCI Express)
 	
 - UART (Rx et Tx) :
@@ -87,6 +87,7 @@ Pour pouvoir utiliser ces signaux il faut donc les "router" vers l'emplacement d
 
 	
 ## Transceiver CAN
+
 Le transceiver CAN peut être configuré pour opérations à hautes vitesses (> 250KBaud/s) ou à basse vitesse (< 250KBaud/s).
 Pour positionner le transceiver en mode haute vitesse, il faut placer un jumper sur le connecteur `JP2`.
 
@@ -117,3 +118,4 @@ Les composants entourés d'un rectangle en pointillé ne doivent pas necessairem
 * Léo CORDIER (Design PCB + montage)
 * Vincent Grennerat (Design PCB)
 * Didier Donsez (firmware de test)
+* [Lucas ORLANDO BERNARDES](https://www.linkedin.com/in/lucas-orlando-bernardes-1b7397256/) (initial design)
