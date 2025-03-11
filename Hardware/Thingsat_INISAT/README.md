@@ -72,13 +72,13 @@ La carte est equipée de:
 ![pinout PCI](images/pinout_pci.png)
 
 
-Modules SX1302/3 compatibles: 
+## Modules SX1302/3 compatibles
+
 * [x] RAK5146 Gateway Concentrator Module for LoRaWAN SPI
 * [ ] RAK2287 WisLink LPWAN Concentrator SPI (to test)
-* [ ] RAK5166 WisLink LPWAN Concentrator SPI (to test)
 * [x] Nebra NBR-0094
+* [x] Seeedstudio Wio-WM1303 Long Range Gateway Module
 * [ ] Seeedstudio Wio-WM1302 Long Range Gateway Module  (to test)
-* [ ] Seeedstudio Wio-WM1303 Long Range Gateway Module  (to test)
 * [ ] Heltec HT1303  (to test)
 
 ## Jumpers de selection des signaux
