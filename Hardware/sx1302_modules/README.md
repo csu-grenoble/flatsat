@@ -1,4 +1,4 @@
-# SX1302 / SX1303 Gateway Modules for [Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc)
+# SX1302 / SX1303 Gateway Modules for [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT)
 
 ## RAK5146 Gateway Concentrator Module for LoRaWAN SPI
 
@@ -11,7 +11,7 @@
 * PPS: Yes
 * LBT: Yes (for USB)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Yes
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 
 ![](images/rak5146-pinout.png)
 
@@ -26,7 +26,7 @@
 * PPS: Probably
 * LBT: No (requires SX126x)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably since same pinout as RAK5146.
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably since same pinout as RAK5146.
 
 
 ## RAK5166 WisLink LPWAN Concentrator SPI
@@ -40,7 +40,7 @@
 * PPS: Yes
 * LBT: Yes
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : No
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
 
 ![](images/rak5166-pinout.png)
 
@@ -54,9 +54,23 @@
 * PPS: No
 * LBT: No
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Yes
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 
 ![](images/nbr0094-pinout.jpg)
+
+
+## Seeedstudio Wio-WM1303 Long Range Gateway Module
+
+* Manufacturer: [Seeedstudio](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
+* Interface: mini-PCIe
+* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
+* Temperature: NA
+* GNSS: NA
+* PPS: NA
+* LBT: NA
+* Regions: EU868
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
+* Remark: only available into [Seeedstudio SenseCAP M1 Helium Miner](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
 
 ## Seeedstudio Wio-WM1302 Long Range Gateway Module
 
@@ -69,23 +83,9 @@
 * PPS: NA
 * LBT: NA
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably (since Wio-WM1303 is compatible)
 
 ![](images/wm1302-pinout.jpg)
-
-## Seeedstudio Wio-WM1303 Long Range Gateway Module
-
-* Manufacturer: [Seeedstudio](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
-* Interface: mini-PCIe
-* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
-* Temperature: NA
-* GNSS: NA
-* PPS: NA
-* LBT: NA
-* Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
-* Remark: only available into [Seeedstudio SenseCAP M1 Helium Miner](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
-
 
 ## Heltec HT1303
 
@@ -98,7 +98,7 @@
 * PPS: No
 * LBT: No
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably
 
 ![](images/ht1303-pinout.jpg)
 
@@ -112,7 +112,7 @@
 * GNSS: No (but slot available on connection board)
 * PPS: No (but slot available on connection board)
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : No
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
 
 ![](images/sx1302cssxxxgw1-pinout.jpg)
 
