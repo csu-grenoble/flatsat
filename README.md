@@ -17,7 +17,7 @@ Extensions to [Easy Space](https://www.easy-space.fr/) INISAT flatsat mockup
   
 ![OBC + RAK5146 board for INISAT](Hardware/Thingsat_INISAT/images/inisat-l432kc+rak5146+lambda80-01.jpg)
 
-## Board #2 ESP32 TinyGS
+## [Board #2 ESP32 TinyGS](Hardware/2U-PCB-TinyGS)
 
 * 1x [ESP32 Wroom](https://www.espressif.com/en/products/devkits)
 * 2x Mikrobus slots for homebrew LoRa click boards (Lambda80, RN2483) or [others click boards](https://www.mikroe.com/shop)
