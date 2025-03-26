@@ -44,7 +44,7 @@
 
 ![](images/rak5166-pinout.png)
 
-## Nebra NBR-0094
+## Nebra NBR-0094 (SPI Version)
 
 * Manufacturer: [Nebra](https://support.nebra.com/support/solutions/articles/24000078841-nebra-sx1302-3-concentrator-module)
 * Interface: mini-PCIe
@@ -59,7 +59,7 @@
 ![](images/nbr0094-pinout.jpg)
 
 
-## Seeedstudio Wio-WM1303 Long Range Gateway Module
+## Seeedstudio Wio-WM1303 Long Range Gateway Module (SPI Version)
 
 * Manufacturer: [Seeedstudio](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
 * Interface: mini-PCIe
@@ -72,22 +72,22 @@
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 * Remark: only available into [Seeedstudio SenseCAP M1 Helium Miner](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
 
-## Seeedstudio Wio-WM1302 Long Range Gateway Module
+## Seeedstudio Wio-WM1302 Long Range Gateway Module (SPI Version)
 
-* Manufacturer: [Seeedstudio](https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
-)
+* Manufacturer: [Seeedstudio](https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html)
 * Interface: mini-PCIe
-* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
+* Chip: SX1303 + 2x SX1250 + SX1262 (rx only)
 * Temperature: NA
-* GNSS: NA
-* PPS: NA
+* GNSS: No
+* PPS: No
 * LBT: NA
-* Regions: EU868
-* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably (since Wio-WM1303 is compatible)
+* Regions: EU868, US915
+* Price: ~30 USD
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 
 ![](images/wm1302-pinout.jpg)
 
-## Heltec HT1303
+## Heltec HT1303 (SPI Version)
 
 * Manufacturer: [heltec](https://heltec.org/project/ht1303/)
 * Interface: mini-PCIe
@@ -102,7 +102,7 @@
 
 ![](images/ht1303-pinout.jpg)
 
-##  Semtech SX1302C868GW1 Corecell Devkit
+##  Semtech SX1302C868GW1 Corecell Devkit (SPI Version)
 
 * Manufacturer: [Semtech](https://www.semtech.fr/products/wireless-rf/lora-core/sx1302cssxxxgw1)
 * Interface: mini-PCIe
