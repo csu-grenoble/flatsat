@@ -10,6 +10,8 @@
 * GNSS: Yes UBlox UBlox ZOE-M8Q (UART)
 * PPS: Yes
 * LBT: Yes (for USB)
+* Spectral Scan: Yes (for USB)
+* Fine timestamp (for TDOA): Yes (when includes UBlox ZOE-M8Q)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 
@@ -25,6 +27,8 @@
 * GNSS: Yes UBlox ZOE-M8Q (UART)
 * PPS: Probably
 * LBT: No (requires SX126x)
+* Spectral Scan: No
+* Fine timestamp (for TDOA): No
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably since same pinout as RAK5146.
 
@@ -39,6 +43,8 @@
 * GNSS: Yes UBlox ZOE-M8Q (UART)
 * PPS: Yes
 * LBT: Yes
+* Spectral Scan: Yes
+* Fine timestamp (for TDOA): No
 * Regions: EU868
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
 
@@ -52,7 +58,10 @@
 * Temperature: NA
 * GNSS: No
 * PPS: No
-* LBT: No
+* Fine timestamp (for TDOA): No
+* LBT: Yes
+* Spectral Scan: Yes
+* Fine timestamp (for TDOA): No
 * Regions: EU868
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 
@@ -67,7 +76,9 @@
 * Temperature: NA
 * GNSS: NA
 * PPS: NA
-* LBT: NA
+* Fine timestamp (for TDOA): No
+* LBT: Yes
+* Spectral Scan: Yes
 * Regions: EU868
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 * Remark: only available into [Seeedstudio SenseCAP M1 Helium Miner](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
@@ -80,7 +91,9 @@
 * Temperature: NA
 * GNSS: No
 * PPS: No
-* LBT: NA
+* Fine timestamp (for TDOA): No
+* LBT: Yes
+* Spectral Scan: Yes
 * Regions: EU868, US915
 * Price: ~30 USD
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
@@ -92,11 +105,13 @@
 * Manufacturer: [heltec](https://heltec.org/project/ht1303/)
 * Interface: mini-PCIe
 * Bus: SPI (or USB))
-* Chip: SX1302 + 2x SX1250
+* Chip: SX1302 + 2x SX1250 
 * Temperature: Unknown
 * GNSS: No
 * PPS: No
+* Fine timestamp (for TDOA): No
 * LBT: No
+* Spectral Scan: No
 * Regions: EU868
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably
 
@@ -111,6 +126,9 @@
 * Temperature: Yes (STTS751)
 * GNSS: No (but slot available on connection board)
 * PPS: No (but slot available on connection board)
+* Fine timestamp (for TDOA): No
+* LBT: No
+* Spectral Scan: No
 * Regions: EU868
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
 
