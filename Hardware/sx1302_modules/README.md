@@ -14,6 +14,8 @@
 * Fine timestamp (for TDOA): Yes (when includes UBlox ZOE-M8Q)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
+* Configuration for [UDP Packet Forwarder](https://github.com/RAKWireless/udp-packet-forwarder)
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
 
 ![](images/rak5146-pinout.png)
 
@@ -31,6 +33,8 @@
 * Fine timestamp (for TDOA): No
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably since same pinout as RAK5146.
+* Configuration for [UDP Packet Forwarder](https://github.com/RAKWireless/udp-packet-forwarder)
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
 
 
 ## RAK5166 WisLink LPWAN Concentrator SPI
@@ -47,6 +51,7 @@
 * Fine timestamp (for TDOA): No
 * Regions: EU868
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
+* Configuration for [UDP Packet Forwarder](https://github.com/RAKWireless/udp-packet-forwarder)
 
 ![](images/rak5166-pinout.png)
 
@@ -97,6 +102,7 @@
 * Regions: EU868, US915
 * Price: ~30 USD
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
 
 ![](images/wm1302-pinout.jpg)
 
@@ -131,6 +137,7 @@
 * Spectral Scan: No
 * Regions: EU868
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
 
 ![](images/sx1302cssxxxgw1-pinout.jpg)
 
