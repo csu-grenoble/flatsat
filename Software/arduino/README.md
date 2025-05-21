@@ -6,6 +6,10 @@ Choose `Tools` > `Board` > `STM32 Boards (selected from submenu` > `Nucleo 32`
 
 Choose  `Tools` > `Board Part Number:` > `Nucleo L432KC`
 
+## GNSS module (UART and I2C)
+
+
+
 ## Sensors (on Sensors board)
 
 * [Bosch Sensortec BNO055](https://www.bosch-sensortec.com/products/smart-sensor-systems/bno055/) [lib](https://search.arduino.cc/search?q=bno055)
