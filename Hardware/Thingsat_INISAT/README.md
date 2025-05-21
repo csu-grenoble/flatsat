@@ -8,12 +8,11 @@ Cette carte fonctionne également comme une carte de communication avancée LoRa
 
 Cette carte peut accueillir un module MikroBus qui peut accueillir des platines de l'[écosystème Mikrobus](https://www.mikroe.com/mikrobus).
 
-Cette carte peut accueillir trois platines Grove I2C/UART situés sous le module mini-PCIe.
+Cette carte peut accueillir trois platines Grove I2C situés sous le module mini-PCIe .
 
 La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT peut être utilisée seule (standalone) pour des expérimentations à bord de [ballons stratosphériques](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/balloons/README.md).
 
 ![](images/inisat-l432kc+rak5146+lambda80-01.jpg)
-
 
 ## Schématique
 
