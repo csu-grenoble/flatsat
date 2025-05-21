@@ -7,7 +7,7 @@ Extensions to [Easy Space](https://www.easy-space.fr/) INISAT flatsat mockup
 ![mockup](./media/flatsat.png)
 ![cubesat 2U](./media/inisat-02.jpg)
 
-## Board #1: ThingSat @ INISAT  📡 🚀 (OBC + LoRa Gateway + CAN Bus)
+## [Board #1: ThingSat @ INISAT](Hardware/Thingsat_INISAT)  📡 🚀 (OBC + LoRa Gateway + CAN Bus)
 
 * 1x [ST Nucleo L432KC](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)
 * 1x [RAK Wireless RAK5146 (all bands)](https://store.rakwireless.com/products/wislink-concentrator-module-sx1303-rak5146-lorawan?_pos=1&_sid=c9dc2f56d&_ss=r&variant=39667784908998)
@@ -17,7 +17,7 @@ Extensions to [Easy Space](https://www.easy-space.fr/) INISAT flatsat mockup
   
 ![OBC + RAK5146 board for INISAT](Hardware/Thingsat_INISAT/images/inisat-l432kc+rak5146+lambda80-01.jpg)
 
-## Board #2 ESP32 TinyGS
+## [Board #2 ESP32 TinyGS](Hardware/2U-PCB-TinyGS)
 
 * 1x [ESP32 Wroom](https://www.espressif.com/en/products/devkits)
 * 2x Mikrobus slots for homebrew LoRa click boards (Lambda80, RN2483) or [others click boards](https://www.mikroe.com/shop)

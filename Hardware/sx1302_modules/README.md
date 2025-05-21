@@ -1,4 +1,4 @@
-# SX130x Gateway Modules
+# SX1302 / SX1303 Gateway Modules for [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT)
 
 ## RAK5146 Gateway Concentrator Module for LoRaWAN SPI
 
@@ -10,8 +10,12 @@
 * GNSS: Yes UBlox UBlox ZOE-M8Q (UART)
 * PPS: Yes
 * LBT: Yes (for USB)
+* Spectral Scan: Yes (for USB)
+* Fine timestamp (for TDOA): Yes (when includes UBlox ZOE-M8Q)
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Yes
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
+* Configuration for [UDP Packet Forwarder](https://github.com/RAKWireless/udp-packet-forwarder)
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
 
 ![](images/rak5146-pinout.png)
 
@@ -25,8 +29,12 @@
 * GNSS: Yes UBlox ZOE-M8Q (UART)
 * PPS: Probably
 * LBT: No (requires SX126x)
+* Spectral Scan: No
+* Fine timestamp (for TDOA): No
 * Regions: EU868, IN865, US915, AS923, KR920, AU915. (RAK5146L supports CN470 or EU433)
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably since same pinout as RAK5146.
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably since same pinout as RAK5146.
+* Configuration for [UDP Packet Forwarder](https://github.com/RAKWireless/udp-packet-forwarder)
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
 
 
 ## RAK5166 WisLink LPWAN Concentrator SPI
@@ -39,12 +47,15 @@
 * GNSS: Yes UBlox ZOE-M8Q (UART)
 * PPS: Yes
 * LBT: Yes
+* Spectral Scan: Yes
+* Fine timestamp (for TDOA): No
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : No
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
+* Configuration for [UDP Packet Forwarder](https://github.com/RAKWireless/udp-packet-forwarder)
 
 ![](images/rak5166-pinout.png)
 
-## Nebra NBR-0094
+## Nebra NBR-0094 (SPI Version)
 
 * Manufacturer: [Nebra](https://support.nebra.com/support/solutions/articles/24000078841-nebra-sx1302-3-concentrator-module)
 * Interface: mini-PCIe
@@ -52,28 +63,17 @@
 * Temperature: NA
 * GNSS: No
 * PPS: No
-* LBT: No
+* Fine timestamp (for TDOA): No
+* LBT: Yes
+* Spectral Scan: Yes
+* Fine timestamp (for TDOA): No
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Yes
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 
 ![](images/nbr0094-pinout.jpg)
 
-## Seeedstudio Wio-WM1302 Long Range Gateway Module
 
-* Manufacturer: [Seeedstudio](https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html
-)
-* Interface: mini-PCIe
-* Chip: SX1303 + 2x SX1250 + SX1261 (rx only)
-* Temperature: NA
-* GNSS: NA
-* PPS: NA
-* LBT: NA
-* Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
-
-![](images/wm1302-pinout.jpg)
-
-## Seeedstudio Wio-WM1303 Long Range Gateway Module
+## Seeedstudio Wio-WM1303 Long Range Gateway Module (SPI Version)
 
 * Manufacturer: [Seeedstudio](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
 * Interface: mini-PCIe
@@ -81,28 +81,49 @@
 * Temperature: NA
 * GNSS: NA
 * PPS: NA
-* LBT: NA
+* Fine timestamp (for TDOA): No
+* LBT: Yes
+* Spectral Scan: Yes
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
 * Remark: only available into [Seeedstudio SenseCAP M1 Helium Miner](https://wiki.seeedstudio.com/Network/SenseCAP_Network/SenseCAP_M1-Helium_gateway/SenseCAP_M1_Overview/)
 
+## Seeedstudio Wio-WM1302 Long Range Gateway Module (SPI Version)
 
-## Heltec HT1303
+* Manufacturer: [Seeedstudio](https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-EU868-p-4889.html)
+* Interface: mini-PCIe
+* Chip: SX1303 + 2x SX1250 + SX1262 (rx only)
+* Temperature: NA
+* GNSS: No
+* PPS: No
+* Fine timestamp (for TDOA): No
+* LBT: Yes
+* Spectral Scan: Yes
+* Regions: EU868, US915
+* Price: ~30 USD
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Yes
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
+
+![](images/wm1302-pinout.jpg)
+
+## Heltec HT1303 (SPI Version)
 
 * Manufacturer: [heltec](https://heltec.org/project/ht1303/)
 * Interface: mini-PCIe
 * Bus: SPI (or USB))
-* Chip: SX1302 + 2x SX1250
+* Chip: SX1302 + 2x SX1250 
 * Temperature: Unknown
 * GNSS: No
 * PPS: No
+* Fine timestamp (for TDOA): No
 * LBT: No
+* Spectral Scan: No
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : Probably
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : Probably
 
 ![](images/ht1303-pinout.jpg)
 
-##  Semtech SX1302C868GW1 Corecell Devkit
+##  Semtech SX1302C868GW1 Corecell Devkit (SPI Version)
 
 * Manufacturer: [Semtech](https://www.semtech.fr/products/wireless-rf/lora-core/sx1302cssxxxgw1)
 * Interface: mini-PCIe
@@ -111,8 +132,12 @@
 * Temperature: Yes (STTS751)
 * GNSS: No (but slot available on connection board)
 * PPS: No (but slot available on connection board)
+* Fine timestamp (for TDOA): No
+* LBT: No
+* Spectral Scan: No
 * Regions: EU868
-* Compliance with [ Thingsat @ INISAT 📡 🚀](../2U-PCB-Com_Nucleo-L432kC/Com_Nucleo-L432kc) : No
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : No
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html)
 
 ![](images/sx1302cssxxxgw1-pinout.jpg)
 
