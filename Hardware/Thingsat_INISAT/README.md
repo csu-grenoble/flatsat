@@ -2,7 +2,7 @@
 
 La carte [Thingsat](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/README.md?ref_type=heads) @ INISAT a pour but de fonctionner comme un OBC qui peut se relier à l'environnement INISAT grace au header standardisé. 
 
-Cette carte fonctionne également comme une carte de communication avancée LoRa/FSK avec l'ajout d'un module [gateway LoRa (+ GNSS) au format mini-PCIe](https://www.mikroe.com/mikrobus) comme le module [RAK5146](../../sx1302_modules).
+Cette carte fonctionne également comme une carte de communication avancée LoRa/FSK avec l'ajout d'un module [gateway LoRa (+ GNSS) au format mini-PCIe](https://www.mikroe.com/mikrobus) comme le module [RAK5146](../Hardware/sx1302_modules).
 
 > Remarque: D'autres modules gateways LoRa avec ou sans module GNSS sont compatibles avec la carte. Voir la [liste](../../sx1302_modules).
 
