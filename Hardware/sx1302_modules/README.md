@@ -137,6 +137,8 @@
 * LBT: NA
 * Spectral Scan: NA
 * Regions: EU868, US915
+* Power supply: 5V
+* Power consumption: emitting: 427mA@5V, receiving: 40mA@5V, sleep: 8mA@5V
 * Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : NA
 * Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html) : NA
 
