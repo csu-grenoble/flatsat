@@ -123,6 +123,26 @@
 
 ![](images/ht1303-pinout.jpg)
 
+
+## SX130x 868M/915M LoRaWAN Gateway Module
+
+* Manufacturer: [Waveshare](https://www.waveshare.com)
+* Interface: mini-PCIe
+* Bus: SPI
+* Chip: SX1302/3 + 2x SX1250
+* Temperature: NA
+* GNSS: No (but Quectel L76 on RPI hat)
+* PPS: No (but Quectel L76 on RPI hat)
+* Fine timestamp (for TDOA): Yes for S1303
+* LBT: NA
+* Spectral Scan: NA
+* Regions: EU868, US915
+* Compliance with [Thingsat @ INISAT 📡 🚀](../Thingsat_INISAT) : NA
+* Supported by [Chirpstack Gateway OS](https://www.chirpstack.io/docs/chirpstack-gateway-os/index.html) : NA
+
+![](images/Waveshare-SX1302-868M-LoRaWAN-Gateway-B-details-inter.jpg)
+
+
 ##  Semtech SX1302C868GW1 Corecell Devkit (SPI Version)
 
 * Manufacturer: [Semtech](https://www.semtech.fr/products/wireless-rf/lora-core/sx1302cssxxxgw1)
